@@ -2,9 +2,7 @@
 
 ## 100 Days of Code Log
 
----
-
-#### Day 0: Jan 29, 2021
+## Day 0: Jan 29, 2021
 
 **Today's Progress** 😎
 
@@ -20,7 +18,7 @@
 
 **Link to work:** [Etch-A-Sketch App](https://devkarenc.github.io/etch-a-sketch/)
 
-#### Day 1: Jan 30, 2021
+## Day 1: Jan 30, 2021
 
 **Today's Progress** 😎
 
@@ -36,7 +34,7 @@
 
 **Link to work**: [JavaScript30 Repo with notes](https://github.com/DevKarenC/JavaScript30-with-notes)
 
-#### Day 2: Jan 31, 2021
+## Day 2: Jan 31, 2021
 
 **Today's Progress** 😎
 
@@ -51,7 +49,7 @@
 - [x] Understanding how other people solved the Caesar Cipher problem and how to improve my solution
 - [x] How to use `.some()`, `.every()`, `.find()`, `.findIndex()`
 
-#### Day 3: Feb 1, 2021
+## Day 3: Feb 1, 2021
 
 **Today's Progress** 😎
 
@@ -65,7 +63,7 @@
 
 - [x] [CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
 
-#### Day 4: Feb 2, 2021
+## Day 4: Feb 2, 2021
 
 **Today's Progress** 😎
 
@@ -80,7 +78,7 @@
 
 - [x] Object Constructors and relevant concepts including `new`, `prototype`, and `this`
 
-#### Day 5: Feb 3, 2021
+## Day 5: Feb 3, 2021
 
 **Today's Progress** 😎
 
@@ -96,7 +94,7 @@
 - [x] How to create a modal box with CSS and JavaScript
 - [x] [CSS Variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
 
-#### Day 6: Feb 4, 2021
+## Day 6: Feb 4, 2021
 
 **Today's Progress** 😎
 
