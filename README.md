@@ -107,3 +107,16 @@
 
 - [x] Using default parameters in recursive functions
 - [x] Thinking out loud when practicing algorithm problems (just do it)
+
+## Day 7: Feb 5, 2021
+
+**Today's Progress** 😎
+
+- [x] Finalize the Calculator Project
+
+**Thoughts**: I was able to finish the online Calculator Project inspired by the Odin Project. The calculator is able to perform basic arithmetic operations (+, -, x, / with both positive and negative and floating point numbers), and it is built with HTML, CSS, and vanilla JavaScript. It was a great learning opportunity as I had to refactor my code to handle edge cases and making sure that the basic functions of a calculation are performed correctly. For instance, a number cannot (1) have more than one decimal point or (2) lead with a zero (trailing zero's are fine). Also, if a number is negative, the negative sign should disappear with the first digit as the user clicks on the backspace button (i.e. a negative sign cannot hang alone). While the project was challenging, it is rewarding to see the finished product without giving up! I cannot wait to work on other projects that will advance my programming skills. 
+
+**What I Learned 💡**
+
+- [x] Considering edge cases and handling them with care
+- [x] DOM Manipulation
