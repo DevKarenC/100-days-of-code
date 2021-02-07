@@ -128,6 +128,7 @@
 **Today's Progress** 😎
 
 - [x] Work on the Recipe Library Project
+- [x] JavaScript30-with-notes Repo
 
 **Thoughts**: I am making a good progress on the recipe library project inspired by the Odin Project, and I hope to finalize it tomorrow! Also I have been following Wes Bos' JavaScript30 exercises and made a repo to record, share, and review what I have learned from them. Just like this 100 days of code repo, it will be updated on a daily basis.
 
