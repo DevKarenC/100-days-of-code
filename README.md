@@ -122,3 +122,13 @@
 - [x] DOM Manipulation
 
 **Link to work:** [Online Calculator](https://devkarenc.github.io/calculator/)
+
+## Day 8: Feb 6, 2021
+
+**Today's Progress** 😎
+
+- [x] Work on the Recipe Library Project
+
+**Thoughts**: I am making a good progress on the recipe library project inspired by the Odin Project, and I hope to finalize it tomorrow!
+
+**Link to work:** [JavaScript30 with Notes](https://github.com/DevKarenC/JavaScript30-with-notes)
