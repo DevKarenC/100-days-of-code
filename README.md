@@ -130,6 +130,21 @@
 - [x] Work on the Recipe Library Project
 - [x] JavaScript30-with-notes Repo
 
-**Thoughts**: I am making a good progress on the recipe library project inspired by the Odin Project, and I hope to finalize it tomorrow! Also I have been following Wes Bos' JavaScript30 exercises and made a repo to record, share, and review what I have learned from them. Just like this 100 days of code repo, it will be updated on a daily basis.
+**Thoughts**: I am making a good progress on the recipe library project inspired by the Odin Project, and I hope to finalize it tomorrow! Also I have been following Wes Bos' JavaScript30 exercises and made a repo to record, share, and review what I have learned from them. Just like this 100 days of code repo, it will be updated on a regular basis.
 
 **Link to work:** [JavaScript30 with Notes](https://github.com/DevKarenC/JavaScript30-with-notes)
+
+## Day 9: Feb 7, 2021
+
+**Today's Progress** 😎
+
+- [x] Finalize the Recipe Library Project and update Readme
+
+**Thoughts**: I was able to finish the Recipe Library project and also update the Readme (which feels like another project on its own) with a short description, list of features, and project demos. Although I first learned about data attributes from JavaScript30 Day 1 exercise, I haven't gotten a chance to put my knowledge in practice until this project. It's a very useful and cool feature to use, and I can see myself using it for my future projects as well. 
+
+**What I Learned 💡**
+
+- [x] Using a third-party library ([Sweet Alert](https://sweetalert.js.org/guides/))
+- [x] Putting data-attributes in practice
+
+**Link to work:** [Recipe Library](https://github.com/DevKarenC/recipe-library)
