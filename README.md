@@ -148,3 +148,18 @@
 - [x] Putting data-attributes in practice
 
 **Link to work:** [Recipe Library](https://github.com/DevKarenC/recipe-library)
+
+## Day 10: Feb 8, 2021
+
+**Today's Progress** 😎
+
+- [x] Learn about Factory Functions (The Odin Project lesson)
+
+**Thoughts**: I spent some time to learn about the factory functions in JavaScript. With factory functions, we can simply set up and return a new object. To deepen my understanding, I also learned about how execution contexts, scope, and closure are all related and are very important concepts in JavaScript. Seeing how factory functions can make our code easier to read, refactor, and test inspired me to organize my code using factory functions and write more modular code.
+
+**What I Learned 💡**
+
+- [x] Factory functions
+- [x] Execution Context (global and function)
+- [x] Scope
+- [x] Closure
