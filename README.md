@@ -114,7 +114,7 @@
 
 - [x] Finalize the Calculator Project
 
-**Thoughts**: I was able to finish the online Calculator Project inspired by the Odin Project. The calculator is able to perform basic arithmetic operations (+, -, x, / with both positive and negative and floating point numbers), and it is built with HTML, CSS, and vanilla JavaScript. It was a great learning opportunity as I had to refactor my code to handle edge cases and making sure that the basic functions of a calculation are performed correctly. For instance, a number cannot (1) have more than one decimal point or (2) lead with a zero (trailing zero's are fine). Also, if a number is negative, the negative sign should disappear with the first digit as the user clicks on the backspace button (i.e. a negative sign cannot hang alone). While the project was challenging, it is rewarding to see the finished product without giving up! I cannot wait to work on other projects that will advance my programming skills. 
+**Thoughts**: I was able to finish the online Calculator Project inspired by the Odin Project. The calculator is able to perform basic arithmetic operations (+, -, x, / with both positive and negative and floating point numbers), and it is built with HTML, CSS, and vanilla JavaScript. It was a great learning opportunity as I had to refactor my code to handle edge cases and making sure that the basic functions of a calculation are performed correctly. For instance, a number cannot (1) have more than one decimal point or (2) lead with a zero (trailing zero's are fine). Also, if a number is negative, the negative sign should disappear with the first digit as the user clicks on the backspace button (i.e. a negative sign cannot hang alone). While the project was challenging, it is rewarding to see the finished product without giving up! I cannot wait to work on other projects that will advance my programming skills.
 
 **What I Learned 💡**
 
@@ -140,7 +140,7 @@
 
 - [x] Finalize the Recipe Library Project and update Readme
 
-**Thoughts**: I was able to finish the Recipe Library project and also update the Readme (which feels like another project on its own) with a short description, list of features, and project demos. Although I first learned about data attributes from JavaScript30 Day 1 exercise, I haven't gotten a chance to put my knowledge in practice until this project. It's a very useful and cool feature to use, and I can see myself using it for my future projects as well. 
+**Thoughts**: I was able to finish the Recipe Library project and also update the Readme (which feels like another project on its own) with a short description, list of features, and project demos. Although I first learned about data attributes from JavaScript30 Day 1 exercise, I haven't gotten a chance to put my knowledge in practice until this project. It's a very useful and cool feature to use, and I can see myself using it for my future projects as well.
 
 **What I Learned 💡**
 
@@ -163,3 +163,23 @@
 - [x] Execution Context (global and function)
 - [x] Scope
 - [x] Closure
+
+## Day 11: Feb 9, 2021
+
+**Today's Progress** 😎
+
+- [x] Learn about ES6 Modules
+- [x] JavaScript30 Day 5 (Flex Panels Image Gallery)
+- [x] Start the Tic-tac-toe Project using modules
+
+**Thoughts**: Learning about ES6 modules was great, since they are a practical way to make my code organized, reusable, and isolated. The best way to practice something new is to actually use it, so I started working on the Tic-tac-toe project where I thought about how to break down different pieces before I started writing code. Since I am putting more thought into how I structure my code, it is taking me longer to craft each line of code. It's all part of the learning process! On another note, the Odin Project (TOP) is great, and I think one way to fully utilize it is to make sure that I am learning from newer resources. After realizing that some articles and videos suggested by TOP are from 2015 (which is the year when ES6 came out, but I'm sure it took people some time to adapt), I looked for resources that incorporated ES6 and more modern JavaScript and learned from those instead. Wes Bos' JavaScript30 is great as always, and spending ~30 minutes to independently try and achieve the desired outcomes help me learn better rather than just watching the video and copying his code (unless I am totally lost - then I learn from the expert 😅)
+
+**What I Learned 💡**
+
+- [x] ES6 Modules
+- [x] How to organize HTML/CSS code
+- [x] flex property for the flexbox, translateY property, cubic-bezier... all the cool CSS knowledge!
+- [x] JS classList.toggle() method instead of using if-else
+- [x] listening to the transitionend event
+
+**Link to work:** [JavaScript30 with Notes - Day 5](https://github.com/DevKarenC/JavaScript30-with-notes/blob/main/05%20-%20Flex%20Panel%20Gallery/index-START.html)
