@@ -183,3 +183,18 @@
 - [x] listening to the transitionend event
 
 **Link to work:** [JavaScript30 with Notes - Day 5](https://github.com/DevKarenC/JavaScript30-with-notes/blob/main/05%20-%20Flex%20Panel%20Gallery/index-START.html)
+
+## Day 12: Feb 10, 2021
+
+**Today's Progress** 😎
+
+- [x] Continue working on the Tic-tac-toe project
+- [x] JavaScript30 Day 8 (HTML5 Canvas)
+
+**Thoughts**: I continued working on the tic-tac-toe project and making some progress on how to write factory functions. I still need more practice on determining which variables and methods to keep private or public, but it's fun to think about how they would impact the overall picture. Sometimes I find myself thinking too hard about the structure and not writing enough code, and I tell myself that I can always start getting some features done first and refactor my code later since I don't want to get bogged down with the fact that I should be writing the *perfect* code from the get-go. We all have to start somewhere.
+
+**What I Learned 💡**
+
+- [x] HTML5 Canvas, 2D context and different properties and methods associated with the context
+
+**Link to work:** [JavaScript30 with Notes - Day 8](https://github.com/DevKarenC/JavaScript30-with-notes/blob/main/08%20-%20Fun%20with%20HTML5%20Canvas/index-START.html)
