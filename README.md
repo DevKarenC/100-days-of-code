@@ -191,10 +191,21 @@
 - [x] Continue working on the Tic-tac-toe project
 - [x] JavaScript30 Day 8 (HTML5 Canvas)
 
-**Thoughts**: I continued working on the tic-tac-toe project and making some progress on how to write factory functions. I still need more practice on determining which variables and methods to keep private or public, but it's fun to think about how they would impact the overall picture. Sometimes I find myself thinking too hard about the structure and not writing enough code, and I tell myself that I can always start getting some features done first and refactor my code later since I don't want to get bogged down with the fact that I should be writing the *perfect* code from the get-go. We all have to start somewhere.
+**Thoughts**: I continued working on the tic-tac-toe project and making some progress on how to write factory functions. I still need more practice on determining which variables and methods to keep private or public, but it's fun to think about how they would impact the overall picture. Sometimes I find myself thinking too hard about the structure and not writing enough code, and I tell myself that I can always start getting some features done first and refactor my code later since I don't want to get bogged down with the fact that I should be writing the _perfect_ code from the get-go. We all have to start somewhere.
 
 **What I Learned 💡**
 
 - [x] HTML5 Canvas, 2D context and different properties and methods associated with the context
 
 **Link to work:** [JavaScript30 with Notes - Day 8](https://github.com/DevKarenC/JavaScript30-with-notes/blob/main/08%20-%20Fun%20with%20HTML5%20Canvas/index-START.html)
+
+## Day 13: Feb 11, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Continue working on the Tic-tac-toe project
+- [x] Review factory functions & function declarations and expressions
+- [x] Learn how to use Chrome/Firefox/VS debuggers
+- [x] JavaScript30 Day 9 (Cool Dev Tools Tricks)
+
+**Thoughts**: For the tic-tac-toe project, I was able to add JavaScript logic to display O or X symbol depending on which player's turn it is and determine the winner. One issue I encountered was that the gameboard in the DOM was showing a different symbol from what was in the actual gameboard array. Learning how to use a debugger was really a game changer since I did not use a single line of `console.log()` to fix the issue! All I had to do was add several break points and add variables in the Watch tab of VS Code. I hope to finalize the project within the next 2 days.
