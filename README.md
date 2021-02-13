@@ -209,3 +209,12 @@
 - [x] JavaScript30 Day 9 (Cool Dev Tools Tricks)
 
 **Thoughts**: For the tic-tac-toe project, I was able to add JavaScript logic to display O or X symbol depending on which player's turn it is and determine the winner. One issue I encountered was that the gameboard in the DOM was showing a different symbol from what was in the actual gameboard array. Learning how to use a debugger was really a game changer since I did not use a single line of `console.log()` to fix the issue! All I had to do was add several break points and add variables in the Watch tab of VS Code. I hope to finalize the project within the next 2 days.
+
+## Day 14: Feb 12, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Continue working on the Tic-tac-toe project
+- [x] JavaScript30 Day 10 (Checkbox Challenge)
+
+**Thoughts**: Majority of today was spent working on the tic-tac-toe project and the JavaScript30's Checkbox challenge. Although I have yet to learn the TDD (Test Driven Development), I think it would have been beneficial for the tic-tac-toe project because as I was testing my code, I found myself clicking on the board 100+ times to see if there are any holes in the logic. Perhaps when I work on the Connect Four project in the future, I can implement the TDD. As for the checkbox challenge, I am glad that I was able to write the code independently first before diving into the lesson. The tough part was performing the necessary actions _while_ listening to the shift keydown event simultaneously. After researching, I learned that you can do so by declaring a boolean variable that will toggle its boolean value as it listens to both the `keydown` and `keyup` event. I still watched how Wes Bos tackled the challenge, and it was a good learning experience.
