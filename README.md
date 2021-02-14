@@ -218,3 +218,15 @@
 - [x] JavaScript30 Day 10 (Checkbox Challenge)
 
 **Thoughts**: Majority of today was spent working on the tic-tac-toe project and the JavaScript30's Checkbox challenge. Although I have yet to learn the TDD (Test Driven Development), I think it would have been beneficial for the tic-tac-toe project because as I was testing my code, I found myself clicking on the board 100+ times to see if there are any holes in the logic. Perhaps when I work on the Connect Four project in the future, I can implement the TDD. As for the checkbox challenge, I am glad that I was able to write the code independently first before diving into the lesson. The tough part was performing the necessary actions _while_ listening to the shift keydown event simultaneously. After researching, I learned that you can do so by declaring a boolean variable that will toggle its boolean value as it listens to both the `keydown` and `keyup` event. I still watched how Wes Bos tackled the challenge, and it was a good learning experience.
+
+## Day 15: Feb 13, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Finalize the Tic-tac-toe project
+- [x] JavaScript30 Day 11 (Custom HTML Video Player)
+
+**Thoughts**: There are just so many things I learned while working on the tic-tac-toe project (which will be discussed in the project Readme) but the big ones are utilizing comments to improve code readability and managing the scope creep. I found it helpful to leave comments in code to myself (and future fellow engineers 😎) to demonstrate the rationale on why I wrote certain functions. I am aware that there are different opinions on whether comments improve code readability or not, and I can see where both sides are coming from. For now, I like to leave comments on my work since there is still much for me to learn, and one way I learn is by documenting the work. As for managing the scope creep, I found myself coming up with new features that wasn't included in my original list of features. While they were good features to have for the user experience, it was also important for me to finish the project and distribute the resources (time and energy) on other programming topics. 
+
+**Link to work:** [Tic-tac-toe Project](https://github.com/DevKarenC/tic-tac-toe)
+
