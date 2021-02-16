@@ -239,3 +239,13 @@
 - [x] JavaScript30 Day 12 (Key Sequence Detection)
 
 **Thoughts**: I was able to get feedback on how to improve my code for the tic-tac-toe project from a senior engineer. Some of the new things I learned is that it can be beneficial to create constants for values such as empty string, O symbol string, and X symbol string since that would help me manage the values with one source of truth. If I were to change the symbols to some other values such as a space or a diamond, I can simply change the value for the constants. The naming convention for constants is using all uppercase characters. In addition, I was able to remove unnecessary variables that don't add value to the code. For instance, the `haveWinner` boolean variable inside the `determineWinner()` function was unnecessary since I could have simply returned `true` or `false`. 
+
+## Day 17: Feb 15, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Update the Readme for the Tic-tac-toe project
+- [x] JavaScript30 Day 13 (Slide in on Scroll)
+- [x] ES6 Classes (The Odin Project)
+
+**Thoughts**: I can say that the tic-tac-toe project is "officially" done now that I updated the Readme for it! It's a good way to showcase what I have done and also acts as a personal reminder for my accomplishments. I am also almost halfway done with the Wes Bos' JavaScript30 courses, and I appreciate learning something new everyday. The Slide in on Scroll lesson was focused on understanding the different heights (innerHeight, offsetTop...) related to the window or the HTML element and involved more math than other topics. The debouncing and throttling are also something I can see myself using in the future. This [site](http://demo.nimius.net/debounce_throttle/) helped me understand the difference between the two. 
