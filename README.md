@@ -168,15 +168,15 @@
 
 **Today's Progress** 😎
 
-- [x] Learn about ES6 Modules
+- [x] Learn about the JS Module Pattern
 - [x] JavaScript30 Day 5 (Flex Panels Image Gallery)
 - [x] Start the Tic-tac-toe Project using modules
 
-**Thoughts**: Learning about ES6 modules was great, since they are a practical way to make my code organized, reusable, and isolated. The best way to practice something new is to actually use it, so I started working on the Tic-tac-toe project where I thought about how to break down different pieces before I started writing code. Since I am putting more thought into how I structure my code, it is taking me longer to craft each line of code. It's all part of the learning process! On another note, the Odin Project (TOP) is great, and I think one way to fully utilize it is to make sure that I am learning from newer resources. After realizing that some articles and videos suggested by TOP are from 2015 (which is the year when ES6 came out, but I'm sure it took people some time to adapt), I looked for resources that incorporated ES6 and more modern JavaScript and learned from those instead. Wes Bos' JavaScript30 is great as always, and spending ~30 minutes to independently try and achieve the desired outcomes help me learn better rather than just watching the video and copying his code (unless I am totally lost - then I learn from the expert 😅)
+**Thoughts**: Learning about the JavaScript module pattern was great, since they are a practical way to make my code organized, reusable, and isolated. The best way to practice something new is to actually use it, so I started working on the Tic-tac-toe project where I thought about how to break down different pieces before I started writing code. Since I am putting more thought into how I structure my code, it is taking me longer to craft each line of code. It's all part of the learning process! On another note, the Odin Project (TOP) is great, and I think one way to fully utilize it is to make sure that I am learning from other resources. After realizing that some articles and videos suggested by TOP are from 2015 (which is the year when ES6 came out, but I'm sure it took people some time to adapt), I looked for resources that incorporated ES6 and more modern JavaScript and learned from those as well. Wes Bos' JavaScript30 is great as always, and spending ~30 minutes to independently try and achieve the desired outcomes help me learn better rather than just watching the video and copying his code (unless I am totally lost - then I learn from the expert 😅)
 
 **What I Learned 💡**
 
-- [x] ES6 Modules
+- [x] JS Module Pattern
 - [x] How to organize HTML/CSS code
 - [x] flex property for the flexbox, translateY property, cubic-bezier... all the cool CSS knowledge!
 - [x] JS classList.toggle() method instead of using if-else
@@ -249,3 +249,13 @@
 - [x] ES6 Classes (The Odin Project)
 
 **Thoughts**: I can say that the tic-tac-toe project is "officially" done now that I updated the Readme for it! It's a good way to showcase what I have done and also acts as a personal reminder for my accomplishments. I am also almost halfway done with the Wes Bos' JavaScript30 courses, and I appreciate learning something new everyday. The Slide in on Scroll lesson was focused on understanding the different heights (innerHeight, offsetTop...) related to the window or the HTML element and involved more math than other topics. The debouncing and throttling are also something I can see myself using in the future. This [site](http://demo.nimius.net/debounce_throttle/) helped me understand the difference between the two. 
+
+## Day 18: Feb 16, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Refactor the Recipe Library project using ES6 Classes
+- [x] JavaScript30 Day 14 (References vs. Copy)
+- [x] ES6 Modules (The Odin Project)
+
+**Thoughts**: I refactored the code for the Recipe Library to use ES6 classes feature instead of using plain constructors. I feel more confident in using classes in my future projects and look forward to using the `extends` keyword as well to practice inheritance. Today's JavaScript30 lesson on pass by reference vs. pass by copy refreshed my memory on those topics. The lesson was released in 2017, so it was interesting to learn that some features mentioned as "not official" in JS actually became an official feature in JS - such as using a spread operator with an object literal to make a shallow copy of it. Also learning of the [tc39 repository](https://github.com/tc39/proposals) where one can see the different features being proposed to be official is very cool. I will continue to learn from the ES6 Modules lesson in the Odin Project
