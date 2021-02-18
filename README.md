@@ -256,6 +256,16 @@
 
 - [x] Refactor the Recipe Library project using ES6 Classes
 - [x] JavaScript30 Day 14 (References vs. Copy)
-- [x] ES6 Modules (The Odin Project)
+- [x] The History of JavaScript - ES6 Modules (The Odin Project)
 
-**Thoughts**: I refactored the code for the Recipe Library to use ES6 classes feature instead of using plain constructors. I feel more confident in using classes in my future projects and look forward to using the `extends` keyword as well to practice inheritance. Today's JavaScript30 lesson on pass by reference vs. pass by copy refreshed my memory on those topics. The lesson was released in 2017, so it was interesting to learn that some features mentioned as "not official" in JS actually became an official feature in JS - such as using a spread operator with an object literal to make a shallow copy of it. Also learning of the [tc39 repository](https://github.com/tc39/proposals) where one can see the different features being proposed to be official is very cool. I will continue to learn from the ES6 Modules lesson in the Odin Project
+**Thoughts**: I refactored the code for the Recipe Library to use ES6 classes feature instead of using plain constructors. I feel more confident in using classes in my future projects and look forward to using the `extends` keyword as well to practice inheritance. Today's JavaScript30 lesson on pass by reference vs. pass by copy refreshed my memory on those topics. The lesson was released in 2017, so it was interesting to learn that some features mentioned as "not official" in JS actually became an official feature in JS - such as using a spread operator with an object literal to make a shallow copy of it. Also learning of the [tc39 repository](https://github.com/tc39/proposals) where one can see the different features being proposed to be official is very cool. I will continue to learn from the ES6 Modules lesson in the Odin Project.
+
+
+## Day 19: Feb 17, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Continue learning about the History of JavaScript, npm, yarn, webpack, and ES6 Modules (The Odin Project)
+- [x] JavaScript30 Day 15 (localStorage and Event Delegation)
+
+**Thoughts**: Learning about the History of Javascript was interesting and now I have a better understanding of how ES6 modules came about and why they are beneficial. JavaScript has come a long way from plain HTML and JS to using a package manager, a module bundler, a transpiler and a task runner to automate various features. I have heard about webpack before and how it's a "module bundler", but did not really know what that meant. After watching videos about it and coding along the tutorial in the documentation, it's making more sense. As for JavaScript30, it was a good lesson to learn about localStorage and event delegation. I can see myself using those feature in the future for my projects.
