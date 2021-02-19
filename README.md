@@ -269,3 +269,14 @@
 - [x] JavaScript30 Day 15 (localStorage and Event Delegation)
 
 **Thoughts**: Learning about the History of Javascript was interesting and now I have a better understanding of how ES6 modules came about and why they are beneficial. JavaScript has come a long way from plain HTML and JS to using a package manager, a module bundler, a transpiler and a task runner to automate various features. I have heard about webpack before and how it's a "module bundler", but did not really know what that meant. After watching videos about it and coding along the tutorial in the documentation, it's making more sense. As for JavaScript30, it was a good lesson to learn about localStorage and event delegation. I can see myself using those feature in the future for my projects.
+
+## Day 20: Feb 18, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Learn about the Object-oriented Programming Principles (The Odin Project)
+- [x] JavaScript30 Day 15 Bonus Challenges 
+- [x] JavaScript30 Day 25 (Event Capture, Propagation, Bubbling, and Once)
+- [x] Start the Pet Photography Website project
+
+**Thoughts**: I completed the challenge suggested by Wes Bos for JS30 Day 15, which was to add 3 different buttons (delete item, check all checkboxes, uncheck all checkboxes). What helped me with the challenges were being able to analyze the code from the lesson, tweak them to match my need, and to take a step back to rethink about the initial approach and come up with a better one. There was a lot to learn from Wes Bos' code and I like how he made a separate `populateList` function to handle the DOM manipulation. For today's JS30 lesson, I skipped to Day 25 because the topics (Event capture, propagation, bubbling...) seemed relevant to Event Delegation, which is what I learned yesterday. Without a doubt, I read multiple articles that discussed how bubbling allows event delegation to happen. The more I study JavaScript, the more topics I come across that I did not know existed. The "SOLID" OOP Principles and Pub-Sub Design Pattern are good examples of such topics. For my project (the Odin Project suggested making a Restaurant Page, but I decided to go with something different and will create a pet photography website instead 🐕🐈), I look forward to applying the Single Responsibility principle to improve my code.
