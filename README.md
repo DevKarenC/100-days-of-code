@@ -280,3 +280,13 @@
 - [x] Start the Pet Photography Website project
 
 **Thoughts**: I completed the challenge suggested by Wes Bos for JS30 Day 15, which was to add 3 different buttons (delete item, check all checkboxes, uncheck all checkboxes). What helped me with the challenges were being able to analyze the code from the lesson, tweak them to match my need, and to take a step back to rethink about the initial approach and come up with a better one. There was a lot to learn from Wes Bos' code and I like how he made a separate `populateList` function to handle the DOM manipulation. For today's JS30 lesson, I skipped to Day 25 because the topics (Event capture, propagation, bubbling...) seemed relevant to Event Delegation, which is what I learned yesterday. Without a doubt, I read multiple articles that discussed how bubbling allows event delegation to happen. The more I study JavaScript, the more topics I come across that I did not know existed. The "SOLID" OOP Principles and Pub-Sub Design Pattern are good examples of such topics. For my project (the Odin Project suggested making a Restaurant Page, but I decided to go with something different and will create a pet photography website instead 🐕🐈), I look forward to applying the Single Responsibility principle to improve my code.
+
+## Day 21: Feb 19, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] JavaScript30 Day 16 CSS Text Shadow
+- [x] Learn about CSS positions and units
+- [x] Work on the Pet Photography Website Project
+
+**Thoughts**: I finished another day of JavaScript30 and as always, learning about one topic led me to research other relevant topics. In today's lesson, Wes Bos used the offsetX and offsetY properties but I was curious about other properties included in the event object, such as clientX, pageX, and screenX. It feels good to supplement the knowledge with the documentation, helpful YouTube videos and Stack Overflow posts. The Pet Photography website project is coming along pretty well - using modules to divide up the code makes it easier to follow and more clean to read.
