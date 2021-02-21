@@ -290,3 +290,13 @@
 - [x] Work on the Pet Photography Website Project
 
 **Thoughts**: I finished another day of JavaScript30 and as always, learning about one topic led me to research other relevant topics. In today's lesson, Wes Bos used the offsetX and offsetY properties but I was curious about other properties included in the event object, such as clientX, pageX, and screenX. It feels good to supplement the knowledge with the documentation, helpful YouTube videos and Stack Overflow posts. The Pet Photography website project is coming along pretty well - using modules to divide up the code makes it easier to follow and more clean to read.
+
+## Day 22: Feb 20, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] JavaScript30 Day 17 Sort without Articles
+- [x] Learn about regular expressions
+- [x] Continue working on the Pet Photography Website Project
+
+**Thoughts**: Today's JavaScript30 lesson was short, but regardless it refreshed my mind on how to use the `sort()` method and how knowing regular expressions (commonly known as regex) can be useful. From the Coding Train's YouTube channel, I learned how regex breaks down a word to spot a generalized pattern (for example: the word "Rainbow" can be broken down into a capital R, followed by a lowercase a, lowercase i... all the way until a lowercase w.) There is a whole video series on regex and I look forward to engaging with the rest in the future. I'm continuing to work on the Pet Photography website project and simultaneously taking notes on what I would like to improve on or refactor. The tab switching works fine but there is always room to grow. Let's see how I can refactor once I'm done with the project.
