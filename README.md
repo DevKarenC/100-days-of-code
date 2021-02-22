@@ -300,3 +300,12 @@
 - [x] Continue working on the Pet Photography Website Project
 
 **Thoughts**: Today's JavaScript30 lesson was short, but regardless it refreshed my mind on how to use the `sort()` method and how knowing regular expressions (commonly known as regex) can be useful. From the Coding Train's YouTube channel, I learned how regex breaks down a word to spot a generalized pattern (for example: the word "Rainbow" can be broken down into a capital R, followed by a lowercase a, lowercase i... all the way until a lowercase w.) There is a whole video series on regex and I look forward to engaging with the rest in the future. I'm continuing to work on the Pet Photography website project and simultaneously taking notes on what I would like to improve on or refactor. The tab switching works fine but there is always room to grow. Let's see how I can refactor once I'm done with the project.
+
+## Day 23: Feb 21, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] JavaScript30 Day 18 (Tally String Times with Reduce)
+- [x] Continue working on the Pet Photography Website Project
+
+**Thoughts**: Learning how to add the total durations of videos using the array reduce method was a good way to build on the foundations of JavaScript. Before diving into Wes Bos' solution, I solved the problem on my own using different methods such as .forEach(), .map(), .split(), and more. It felt great when I learned that I wrote a similar line of code as a pro but also created something different independently. Out of the three tabs in my project scope, I finished two tabs so I only have one more to go. I hope to finalize the pet photography website project tomorrow and look forward to receiving feedback to improve my code. 
