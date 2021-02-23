@@ -309,3 +309,13 @@
 - [x] Continue working on the Pet Photography Website Project
 
 **Thoughts**: Learning how to add the total durations of videos using the array reduce method was a good way to build on the foundations of JavaScript. Before diving into Wes Bos' solution, I solved the problem on my own using different methods such as .forEach(), .map(), .split(), and more. It felt great when I learned that I wrote a similar line of code as a pro but also created something different independently. Out of the three tabs in my project scope, I finished two tabs so I only have one more to go. I hope to finalize the pet photography website project tomorrow and look forward to receiving feedback to improve my code. 
+
+## Day 24: Feb 22, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] JavaScript30 Day 19 (Webcam Fun)
+- [x] Learn about promises, async/await
+- [x] Finish the Pet Photography Website Project
+
+**Thoughts**: JavaScript has changed so much in the last 3 years ever since the JavaScript 30 series came out. Some of the features introduced in today's lesosn such as `Navigator.getUserMedia` and `localMediaStream` were deprecated and no longer recommended by the MDN. It was confusing at first because `Navigator.getUserMedia` was deprecated so MDN recommended `MediaDevices.getUserMedia`, but I ended up using `Navigator.mediaDevices.getUserMedia` since `Navigator.mediaDevices` returns the `MediaDevices` object. Also looking through the MDN examples to see how the method is used helped a lot. In regards to setting up the project, Wes Bos introduces browser-sync but I think I could have used the Live Server VSCode extension to achieve the same outcome. I did learn that using `npm install` without any arguments installs dependencies outlined in `package.json`, which is pretty cool. Although I haven't played much with media streams such as webcam and canvas before, it was still a good lesson that extended to other important topics such as promise, .then(), .catch(). As for the Pet Photography website, I was able to finish writing code for the essential modules. I will take some time tomorrow to refactor, update Readme, and deploy the project github page since the project was built using webpack.
