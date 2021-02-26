@@ -330,7 +330,6 @@
 
 **Thoughts**: I loved today's JS30 topic of Speech recognition since I always thought it would be cool to work with it! I primarily use Firefox for deveopment so when I first tried the feature in a Firefox browser, unfortunately it did not work due to the feature not being supported (in fact, multitude of other browsers did not support the Speech Recognition Web API according to the browser compatibility table in MDN docs). At the end of the lesson, I enjoyed thinking about the practical examples like "Siri/Alexa -  get the weather" as suggested by Wes Bos and I can't wait to build an application that uses speech recognition. One idea that comes to mind is a [Smart Home with Raspberry Pi](https://hacks.mozilla.org/2018/02/how-to-build-your-own-private-smart-home-with-a-raspberry-pi-and-mozillas-things-gateway/). As for the Pet Photography website, I refactored the code base to include a file for the constants such as phone number, email, address, and business hours so that it's easier to access or change them in the future. I'm glad that I had the opportunity to practice implementing the Single Responsibility principle and using webpack for module bundling. 
 
-
 ## Day 26: Feb 24, 2021
 
 **Today's Progress** 👩🏻‍💻
@@ -341,3 +340,14 @@
 - [x] Review callbacks and learn about promises
 
 **Thoughts**: I had a chance to briefly try out the iPhone simulator on xcode and it was great. It's a feature that I didn't know even existed. I can see that it will be useful when I learn how to use the React Native framework and test my application on the xcode simulator. Continuing with the Odin Project curriculum, I learned more about webpack plugins related to output management (ex. HTMLWebpackPlugin) and also Development. Source map is great since it tells you which file and line the error came from instead of just printing that the error came from `bundle.js`. I have previously used webpack's --watch mode to automatically compile my code, and I will try out the `webpack-dev-server` in the future.
+
+## Day 27: Feb 25, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] JavaScript30 Day 22 (Follow along and highlight links)
+- [x] Design wireframes for the Todo List Project
+- [x] Set up the Todo List Project with webpack
+- [x] Learn about Linting
+
+**Thoughts**: As I go through the JavaScript30 lessons, not only do I learn from the lessons but also from other people's YouTube video comments. Today's lesson was related to hovering over the links and making the white highlight span appear on the hovered links. One of the comments wrote that this feature would be useful for the tooltip system, which would be cool to have in my future projects. For my next project, I plan to work on the Todo list as suggested by The Odin Project, and I designed some wireframes and set up the configuration files for eslint and webpack. I have been using eslint extension for VSCode, but not as a dev-dependency. It's awesome that I will be learning from a different style guide (I chose Airbnb), but I also acknowledge that it's important to stay flexible and open-minded since every team would follow a different style guide.
