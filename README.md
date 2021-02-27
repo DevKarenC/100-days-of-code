@@ -351,3 +351,14 @@
 - [x] Learn about Linting
 
 **Thoughts**: As I go through the JavaScript30 lessons, not only do I learn from the lessons but also from other people's YouTube video comments. Today's lesson was related to hovering over the links and making the white highlight span appear on the hovered links. One of the comments wrote that this feature would be useful for the tooltip system, which would be cool to have in my future projects. For my next project, I plan to work on the Todo list as suggested by The Odin Project, and I designed some wireframes and set up the configuration files for eslint and webpack. I have been using eslint extension for VSCode, but not as a dev-dependency. It's awesome that I will be learning from a different style guide (I chose Airbnb), but I also acknowledge that it's important to stay flexible and open-minded since every team would follow a different style guide.
+
+
+## Day 28: Feb 26, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] JavaScript30 Day 26 (Stripe Follow Along Navigation)
+- [x] Continue the Todo List Project
+- [x] Learn about different CSS frameworks
+
+**Thoughts**: I skipped to Day 26 of JavaScript30 to continue with where I left off in yesterday's lesson of following along the navigation links. I reviewed the "this" keyword and the arrow function scope as they were discussed during the lesson, and also learned that you can use `display: none` and `opacity: 0` in two different classes and toggle those properties to create the smooth transition effect. As I continued to work on the Todo List project, I decided to explore [different options for CSS libraries and frameworks](https://geekflare.com/best-css-frameworks/) and came across Bulma. I like the fact that its classes are very readable and it offers helpful documentation and video courses, so I will be using it throughout the project. Excited to use and learn something new!
