@@ -362,3 +362,12 @@
 - [x] Learn about different CSS frameworks
 
 **Thoughts**: I skipped to Day 26 of JavaScript30 to continue with where I left off in yesterday's lesson of following along the navigation links. I reviewed the "this" keyword and the arrow function scope as they were discussed during the lesson, and also learned that you can use `display: none` and `opacity: 0` in two different classes and toggle those properties to create the smooth transition effect. As I continued to work on the Todo List project, I decided to explore [different options for CSS libraries and frameworks](https://geekflare.com/best-css-frameworks/) and came across Bulma. I like the fact that its classes are very readable and it offers helpful documentation and video courses, so I will be using it throughout the project. Excited to use and learn something new!
+
+## Day 29: Feb 27, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] JavaScript30 Day 6 (fetch type ahead)
+- [x] Continue the Todo List Project
+
+**Thoughts**: I went back to Day 6 of JavaScript30 since I wanted to learn about Fetch API, but I learned more regex than fetch in my opinion. Regex can be useful in many situations so I'm glad I got additional practice. For the Todo list project, I created two classes - one for TodoList and the other for TodoItem. I did not make one extend from another class, since I thought those two classes were pretty distinctive and did not require inheritance. Perhaps in the future I can refactor code, but that's the idea for now. In addition, I reviewed my project features to see how the user would add a todo item and noticed that the user can only add a todo item inside a todo list (i.e. folder of todo items). Therefore, I only exported the TodoList class with addTodo method, which creates a new instance of a TodoItem class. It takes me some time to plan it out, but it's fun thinking in terms of object oriented programming 👏🏻 
