@@ -371,3 +371,12 @@
 - [x] Continue the Todo List Project
 
 **Thoughts**: I went back to Day 6 of JavaScript30 since I wanted to learn about Fetch API, but I learned more regex than fetch in my opinion. Regex can be useful in many situations so I'm glad I got additional practice. For the Todo list project, I created two classes - one for TodoList and the other for TodoItem. I did not make one extend from another class, since I thought those two classes were pretty distinctive and did not require inheritance. Perhaps in the future I can refactor code, but that's the idea for now. In addition, I reviewed my project features to see how the user would add a todo item and noticed that the user can only add a todo item inside a todo list (i.e. folder of todo items). Therefore, I only exported the TodoList class with addTodo method, which creates a new instance of a TodoItem class. It takes me some time to plan it out, but it's fun thinking in terms of object oriented programming 👏🏻 
+
+## Day 30: Feb 28, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] JavaScript30 Day 23 (Speech Synthesis)
+- [x] Continue the Todo List Project
+
+**Thoughts**: There is always a lot to learn in the JavaScript30 lessons, and I have a longer list of what I learned today. For example, it's a good idea to look through the YouTube comments to see if anyone else had the similar problem as me, or offered a solution. The project did not work for me in Firefox and I thought the feature wasn't supported in the Firefox browser. But the browser support table suggested otherwise, and I learned from a comment that I can call `.getVoices()` method on `window.speechSynthesis` and then call the `populateVoices()` method on page load. After following another programmer's advice, it worked on both Chrome and Firefox like magic! In addition, it's great to learn from how Wes Bos structures his code; he divides functionalities into multiple functions instead of putting everything into one big function. Also, I like how we can first test if the callback function is working properly by including a simple `console.log()` inside the function definition to see if we see the text in the console. As for the Todo List, I am slowly making progress by adding functionality to the "+ New List" button. 
