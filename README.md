@@ -380,3 +380,12 @@
 - [x] Continue the Todo List Project
 
 **Thoughts**: There is always a lot to learn in the JavaScript30 lessons, and I have a longer list of what I learned today. For example, it's a good idea to look through the YouTube comments to see if anyone else had the similar problem as me, or offered a solution. The project did not work for me in Firefox and I thought the feature wasn't supported in the Firefox browser. But the browser support table suggested otherwise, and I learned from a comment that I can call `.getVoices()` method on `window.speechSynthesis` and then call the `populateVoices()` method on page load. After following another programmer's advice, it worked on both Chrome and Firefox like magic! In addition, it's great to learn from how Wes Bos structures his code; he divides functionalities into multiple functions instead of putting everything into one big function. Also, I like how we can first test if the callback function is working properly by including a simple `console.log()` inside the function definition to see if we see the text in the console. As for the Todo List, I am slowly making progress by adding functionality to the "+ New List" button. 
+
+## Day 31: Mar 1, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] JavaScript30 Day 24 (Sticky Nav)
+- [x] Continue the Todo List Project
+
+**Thoughts**: From today's JavaScript 30 lesson, I was able to fill in some gaps in my CSS knowledge. For instance, I did not realize that you can add a class to the overarching parent div (such as body) and use CSS combinators to conditionally refer to the descendant elements for the before and after CSS effects. Also, I learned the difference between the `width` and `max-width` properties in terms of resizing the screen, since the element can be responsive when used with `max-width`. For the Todo List project, I worked on getting the static version of the todo list done so that I have the visuals to refer to when converting it to the dynamic page. It's helpful when I can easily see how the page would look and to which elements I should add the event listeners. 
