@@ -389,3 +389,12 @@
 - [x] Continue the Todo List Project
 
 **Thoughts**: From today's JavaScript 30 lesson, I was able to fill in some gaps in my CSS knowledge. For instance, I did not realize that you can add a class to the overarching parent div (such as body) and use CSS combinators to conditionally refer to the descendant elements for the before and after CSS effects. Also, I learned the difference between the `width` and `max-width` properties in terms of resizing the screen, since the element can be responsive when used with `max-width`. For the Todo List project, I worked on getting the static version of the todo list done so that I have the visuals to refer to when converting it to the dynamic page. It's helpful when I can easily see how the page would look and to which elements I should add the event listeners. 
+
+## Day 32: Mar 2, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] JavaScript30 Day 27 (Click and Drag)
+- [x] Continue the Todo List Project
+
+**Thoughts**: I came across the [MDN Learning Area](https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer) that offers a vast variety of articles and active learning practices to complete for different topics in web development. I had previously read some articles as they were suggested by the Odin Project, but didn't know MDN also offered such a roadmap for beginners striving to become a front-end web developer. I primarily used MDN for documentation purposes to confirm my knowledge regarding the built-in functions, but seeing that there are many interesting topics such as cross-browser testing and Accessibility guides, I can see myself visiting MDN more often for these resources.
