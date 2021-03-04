@@ -398,3 +398,12 @@
 - [x] Continue the Todo List Project
 
 **Thoughts**: I came across the [MDN Learning Area](https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer) that offers a vast variety of articles and active learning practices to complete for different topics in web development. I had previously read some articles as they were suggested by the Odin Project, but didn't know MDN also offered such a roadmap for beginners striving to become a front-end web developer. I primarily used MDN for documentation purposes to confirm my knowledge regarding the built-in functions, but seeing that there are many interesting topics such as cross-browser testing and Accessibility guides, I can see myself visiting MDN more often for these resources.
+
+## Day 33: Mar 3, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] JavaScript30 Day 28 (Video Speed Controller)
+- [x] Continue the Todo List Project
+
+**Thoughts**: I made a good progress on the Todo List project today, and I think part of the reason is that I tried not to get overwhelmed by the number of functionalities I need to add. It helped to break them down into smaller pieces and tackle them one at a time. For instance, I had to convert the static todo list page to render dynamically in response to the user's click events. I tried to break it down by thinking about "What should happen when the user first clicks on the todo list on the side nav bar? What should appear first? How would the data behind the scenes change?", then made small but frequent commits to the repository. I hope to finalize the project by the end of this week and leave time to refactor and improve the code base.
