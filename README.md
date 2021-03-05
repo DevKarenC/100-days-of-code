@@ -407,3 +407,13 @@
 - [x] Continue the Todo List Project
 
 **Thoughts**: I made a good progress on the Todo List project today, and I think part of the reason is that I tried not to get overwhelmed by the number of functionalities I need to add. It helped to break them down into smaller pieces and tackle them one at a time. For instance, I had to convert the static todo list page to render dynamically in response to the user's click events. I tried to break it down by thinking about "What should happen when the user first clicks on the todo list on the side nav bar? What should appear first? How would the data behind the scenes change?", then made small but frequent commits to the repository. I hope to finalize the project by the end of this week and leave time to refactor and improve the code base.
+
+## Day 34: Mar 4, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] JavaScript30 Day 29 (Countdown Timer)
+- [x] Continue the Todo List Project
+
+**Thoughts**: After working on the timer as part of JavaScript30 exercise, I feel inspired to build my own version of the Timer as a Firefox or Chrome browser extension and publish it. Perhaps the timer could be my next project after I complete the Todo List. It would be cool and useful to create a timer that reminds the user to look away 20 feet for 20 seconds every 20 minutes, or get up and stretch for 5 minutes every hour (I spend a long time staring at the screen, so I know I'll use it for sure!). I found a helpful article by MDN related to [building your first extension](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension), so I'll take a look at it before I start the extension.
+
