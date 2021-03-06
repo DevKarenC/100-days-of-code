@@ -417,3 +417,12 @@
 
 **Thoughts**: After working on the timer as part of JavaScript30 exercise, I feel inspired to build my own version of the Timer as a Firefox or Chrome browser extension and publish it. Perhaps the timer could be my next project after I complete the Todo List. It would be cool and useful to create a timer that reminds the user to look away 20 feet for 20 seconds every 20 minutes, or get up and stretch for 5 minutes every hour (I spend a long time staring at the screen, so I know I'll use it for sure!). I found a helpful article by MDN related to [building your first extension](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension), so I'll take a look at it before I start the extension.
 
+## Day 35: Mar 5, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] JavaScript30 Day 30 (Last day!) (Whack-A-Mole)
+- [x] Continue the Todo List Project
+
+**Thoughts**: I can't believe today was the last day of JavaScript30 and I have finished all 30 exercises! It's been a great journey and I learned so much about vanilla JavaScript, HTML, CSS, and various Web APIs (check out my repo [here](https://github.com/DevKarenC/JavaScript30-with-notes), where I recorded what I learned from the lessons). I am planning on compiling all the exercises into one website. I also noticed that some people added additional features and functionalities to the exercises, which I think is a good idea to continue practicing JavaScript and build up the foundations. 
+Since I already went through the exercises once before, I can focus on expressing my creativity to add different customizations. Wes Bos also offers FlexBox/CSS Grid courses, and they look helpful so I'll get started on those tomorrow.
