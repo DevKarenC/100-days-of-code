@@ -426,3 +426,12 @@
 
 **Thoughts**: I can't believe today was the last day of JavaScript30 and I have finished all 30 exercises! It's been a great journey and I learned so much about vanilla JavaScript, HTML, CSS, and various Web APIs (check out my repo [here](https://github.com/DevKarenC/JavaScript30-with-notes), where I recorded what I learned from the lessons). I am planning on compiling all the exercises into one website. I also noticed that some people added additional features and functionalities to the exercises, which I think is a good idea to continue practicing JavaScript and build up the foundations. 
 Since I already went through the exercises once before, I can focus on expressing my creativity to add different customizations. Wes Bos also offers FlexBox/CSS Grid courses, and they look helpful so I'll get started on those tomorrow.
+
+## Day 36: March 6, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Watch the What the Flexbox Tutorial 1 - 10 and take notes
+- [x] Continue the Todo List Project
+
+**Thoughts**: Although I have used the Flexbox previously in my projects using the documentation, it was good to watch tutorials on them for review and there were some properties I have yet to use, such as `align-content` and `order`. They look useful so I hope to use them in the future. The Todo List project is taking a little longer than expected due to some road blocks in the way, but since I'm still learning, I rather take the time to learn than speeding through topics that I do not know yet.
