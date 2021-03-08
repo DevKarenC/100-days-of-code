@@ -435,3 +435,11 @@ Since I already went through the exercises once before, I can focus on expressin
 - [x] Continue the Todo List Project
 
 **Thoughts**: Although I have used the Flexbox previously in my projects using the documentation, it was good to watch tutorials on them for review and there were some properties I have yet to use, such as `align-content` and `order`. They look useful so I hope to use them in the future. The Todo List project is taking a little longer than expected due to some road blocks in the way, but since I'm still learning, I rather take the time to learn than speeding through topics that I do not know yet.
+
+## Day 37: March 7, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Continue the Todo List Project
+
+**Thoughts**: I spent today adding the add/edit notes, delete todo, and set due date for todos features for the Todo List project. In addition, I am in the process of implementing localStorage for the project. I haven't worked much with localStorage before, and I encountered some issues where I was trying to access the methods defined within my TodoList class on the data saved in localStorage. I got an error saying that the class method was not a function, and after some research, I learned that it's a common problem experienced among others. Since localStorage should be used for persisting data (not functions) and the data is saved in a string, I looped through each string (after parsing) and made each one a new instance of the TodoList class again using the `new` keyword. It was frustrating at first, but it feels great to debug the issue step by step.
