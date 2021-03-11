@@ -461,3 +461,12 @@ how event listeners work with the documentation and YouTube vidoes, since the pr
 - [x] Improve Day30 of JavaScript30 course
 
 **Thoughts**: I thought of different ways to improve to Whack-A-Mole game from JavaScript30 lessons, and decided to go with one of them. The "issue" was that the user is able to earn more than 1 point when they click on the same mole multiple times consecutively when it appears from the hole. I wanted to change the game so that the user can only score 1 point per 1 mole apperance. Initially it seemed like an easy feature to add, but many of the solutions that I attempted did not work out as intended so I ended up spending more than I anticipated. At the end, I was able to solve it by creating a variable called `lastBonkedMole` and setting it to what was last bonked in the user's click event, and when the mole disappears, I set it back to undefined. Just like this fix, adding one new feature may seem easy (ex. implementing an all-time scoreboard), but there can be multiple sub-tasks to accomplish it. For the all-time scoreboard feature, I would need a localStorage to save the user's scores, prompt user to enter the name when the score is high enough, and think about how to display the scoreboard to the user. This makes it important to appropriately plan out what is needed to implement a feature or fix a bug. It was a good practice working with other people's code (Wes Bos in this case) since in the real world, I will be working with the code base that the team wrote and modify it based on the business's needs.
+
+## Day 40: March 10, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Read chapters 1 (Async) and 2 (Callbacks) of You Don't Know JS (YDKJS)
+- [x] Learn about promises, API (ex. fetch), and asynchronous JavaScript
+
+**Thoughts**: I have heard great things about the book series You Don't Know JS (YDKJS), and since they were recommended by the Odin Project to learn about the asynchronous JavaScript, I read the first two chapters of the book. The chapters were dense so I definitely need to read them several times before I can fully comprehend everything discussed within. Our brains are used to the sequential way of thinking, so the nature of the callbacks where we often find ourselves jumping around the code base to understand is naturally difficult to process. However, we can use Promises, fetch API, and async/await keywords to reduce callback hell and handle asynchronous tasks more efficiently. I will put them into practice through the Weather App project.
