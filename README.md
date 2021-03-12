@@ -470,3 +470,12 @@ how event listeners work with the documentation and YouTube vidoes, since the pr
 - [x] Learn about promises, API (ex. fetch), and asynchronous JavaScript
 
 **Thoughts**: I have heard great things about the book series You Don't Know JS (YDKJS), and since they were recommended by the Odin Project to learn about the asynchronous JavaScript, I read the first two chapters of the book. The chapters were dense so I definitely need to read them several times before I can fully comprehend everything discussed within. Our brains are used to the sequential way of thinking, so the nature of the callbacks where we often find ourselves jumping around the code base to understand is naturally difficult to process. However, we can use Promises, fetch API, and async/await keywords to reduce callback hell and handle asynchronous tasks more efficiently. I will put them into practice through the Weather App project.
+
+## Day 41: March 11, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Review Async/Await (JavaScript.info)
+- [x] Work on the Weather App
+
+**Thoughts**: To put the asynchronous JavaScript concepts into practice, I got started on the Weather App project. As with many projects, I encountered several errors related to the configuration files (dotenv and Babel (async/await keywords) in this case). For example, I kept getting an error message that said "Uncaught SyntaxError: identifier starts immediately after numeric literal" and it didn't tell me which file the error derived from, but only said "bundle.js". Not a helpful error message but that's the programming life. After dabbling with the code, I figured out that it was coming from my .env file due to my API_KEY value. After reading [more stackOverflow answers](https://stackoverflow.com/questions/55185601/webpack-process-env-undefined-using-defineplugin-and-dotenv/65264701#65264701), I learned that I shound't really be using `process.env` in the front-end and that webpack 5 doesn't provide access to `process`. As an alternative, I can place the API key in another .js file and add that .js file to the .gitignore file to prevent pushing it to github by accident. I won't be able to deploy it for the lack of API key, but I can still showcase my work via demo screenshots and gifs in the github repo's Readme file. I'm excited to continue the weather app tomorrow.
