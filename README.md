@@ -488,3 +488,19 @@ how event listeners work with the documentation and YouTube vidoes, since the pr
 - [x] Continue the Weather App project
 
 **Thoughts**: I finished the Flexbox tutorial and I feel more confident in using Flexbox display and its properties that I haven't used much before, such as `flex-wrap`, `flex-grow`, `flex-shrink`, `flex-basis`, and `order` to create a responsive website. Before, I was used to setting the flex-direction property to column and using justify-content/align-items to center when I wanted to vertically and horizontally center flex items. But I learned that you can also set the flex-wrap property to wrap so that the flex items wrap around accordingly based on the width of the flex container, achieving the similar effect as `flex-direction: column`. As for the weather app, I learned how to read the documentation and get the necessary information for the project. For instance, the default temperature unit was in Kelvin but you can set the unit to be metric or imperial to get the temperature in celsius or fahrenheit. The OpenWeather API also provided the appropriate weather icons to be used according to the weather such as rainy, sunny, or cloudy, so I didn't have to use icons from other sites. In addition, I noticed that my app designs can change from the initial layout so it helps me to work out the JavaScript logic first and then play with the styling later, which can change in the future.
+
+## Day 43: March 13, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Continue working on the Weather App
+
+**Thoughts**: For the Weather app, I was able to retrieve the data from the OpenWeather API and spent some time to make the data more human readable by adding appropriate units such as % for humidity and miles or meters for the wind speed. In terms of converting the temperature unit from fahrenheit to celsius and vice versa, although the API data was available in both units, I did not work to make another API call since it would be slower than calling a function that can convert the value and unit on the fly. In addition, I created an object for all the weather data, which will be populated when the API call is made, so that there is only one source of truth instead of getting the weather data from different sources such as the DOM text node. As I was writing the function to convert the units, I realized that I don't need to have 2 different functions (fahrenheit to celsius and celsius to fahrenheit) since the API call already provides data in the imperial format (specifid by me). I can just define a function to convert from imperial to metric and call that function as needed. When I need to convert from metric to imperial, I can just use the original data provided by the API. It was helpful to think out loud before writing code!
+
+## Day 44: March 14, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Continue working on the Weather App
+
+**Thoughts**: I implemented the error handling logic by using `.catch()` method to the `getWeather` function to catch status codes such as 400 when the input is empty or 404 when the input city doesn't exist. I learned that `fetch()` doesn't throw an error unless it's a network error and since 4xx error codes are not network errors, [I need to throw new errors and handle them ourselves](https://stackoverflow.com/questions/38235715/fetch-reject-promise-and-catch-the-error-if-status-is-not-ok). I was also able to implement the Unsplash API to display a random image as a background image that corresponds with the input city name. It works great, and tomorrow I will work on adding a functionality so that when the input is empty or the city doesn't exist, the website doesn't make an Unsplash API call.
