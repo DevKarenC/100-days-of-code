@@ -513,4 +513,12 @@ how event listeners work with the documentation and YouTube vidoes, since the pr
 
 **Thoughts**: While implementing a corresponding background image for the input city, I was experiencing an error similar to a common off-by-one error but I was able to fix it after realizing that I was not making the API call at the right place. In terms of layout, I used media queries to make sure the content fit in a smaller sized window. There was an issue where the vertical content would be cut off even upon scrolling, and the fix was to utilize `min-height` instead of regular `height` CSS property since min-height is responsive to the screen size changes. Finally, I did not like how the location would show an abbreviated country name such as US for United States, so I parsed the CSV file with country code and name by using [Papa Parse](https://www.papaparse.com/). I converted the result to a Hashmap for easier access to the country's full name based on the country code. It was important to keep in mind that [Papa parse is an asynchronous library](https://stackoverflow.com/questions/27741388/papaparse-returns-undefined-when-reading-csv), so I had to use the `complete` callback function to display the data (country's full name). Otherwise, JavaScript would throw an error saying that the Hashmap (`countryCodes`) is undefined. I'm glad that I was able to accomplish the MVP features (display weather data and toggle unit) as well as the optional features (display matching background image, handle response errors, mobile-responsive, display full country name, display different weather icons accordingly) in order, instead of working on an optional feature first and experiencing burn out wheile the essential feature is not yet finished 😥. I will be updating the Readme and other housekeeping tasks tomorrow to wrap up the Weather App project.
 
+## Day 46: March 16, 2021
 
+**Today's Progress** 👩🏻‍💻
+
+- [x] Update Readme for Covid-19 project
+- [x] Review CLI
+- [x] Learn about Test-Driven Development and Reading Specs
+
+**Thoughts**: For the COVID-19 Tracker project that I worked on before, I decided to update the Readme to make it easier for people to understand what the project is about, its features, and different technologies used (languages, API, libraries). Ever since the first Readme, I had improved in showcasing my work with demo screenshots and GIFs, instead of leaving it blank or just writing one or two lines without a detailed description. 
