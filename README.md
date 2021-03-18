@@ -522,3 +522,13 @@ how event listeners work with the documentation and YouTube vidoes, since the pr
 - [x] Learn about Test-Driven Development and Reading Specs
 
 **Thoughts**: For the COVID-19 Tracker project that I worked on before, I decided to update the Readme to make it easier for people to understand what the project is about, its features, and different technologies used (languages, API, libraries). Ever since the first Readme, I had improved in showcasing my work with demo screenshots and GIFs, instead of leaving it blank or just writing one or two lines without a detailed description. 
+
+## Day 47: March 17, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Continue learning about Test-Driven Development (TDD) and Reading Specs
+- [x] Finalize the [Weather App project](https://github.com/DevKarenC/weather-app)
+
+**Thoughts**: There is a variety of new "quirks" of JavaScript that I came across today. For example, while learning how to write and read specs (unit tests) for the TDD, I learned that multiplying `undefined` and `undefined` returns a `NaN`, not a number. But `NaN` actually has a numeric data type (despite it being "not a number"!) [whose value cannot be represented with actual numbers](https://bitsofco.de/javascript-typeof/). When you run `typeof NaN`, it returns "number" as the data type. Also, if you execute a function that takes in parameters without actually supplying the arguments, [JavaScript would set those missing arguments as undefined](https://stackoverflow.com/questions/1846679/what-happens-when-i-call-a-javascript-function-which-takes-parameters-without-s). It feels good to fill in the knowledge gap while learning about something seemingly irrelevant (ex. TDD and NaN quirks). In terms of TDD, I am focusing on Jasmine testing framework and learned about what the `describe`, `it`, `expect` functions and `toBe` matcher method do. I understand that test-driven development is important and can improve your code/project in many ways - I'm excited to start using them in my projects. For the [Weather App](https://github.com/DevKarenC/weather-app), I made sure to add screenshots and GIFs and the detailed list of features and learning outcomes to the Readme. Since I did not deploy the website (to protect the API key credentials), I felt that detailed Readme would help the potential user understand its capabilities and how to use it in their local machine.
+
