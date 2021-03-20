@@ -541,3 +541,11 @@ how event listeners work with the documentation and YouTube vidoes, since the pr
 - [x] Review the value of `this` in Callback functions
 
 **Thoughts**: When it comes to the `this` keyword in JavaScript, I was used to the implicit binding of `this` and how you can look to the left of the dot to figure out the value of `this`. I realized I'm not too familiar with the value of `this` inside callback functions as I was watching a video to learn about factory functions (funny how one topic can lead to learning a different topic - so common in programming from my experience 😅). I came across two good articles: [How to Eyeball Your ‘This’ Context in Javascript](https://gist.github.com/zcaceres/2a4ac91f9f42ec0ef9cd0d18e4e71262) and [Mastering ‘this’ in JavaScript: Callbacks and bind(), apply(), call()](https://thenewstack.io/mastering-javascript-callbacks-bind-apply-call/). Essentially, the value of `this` inside a callback function can change depending on the higher-order function that invokes the callback function. It's important to inspect the function's **call site** to inspect `this`. I also noticed that many articles suggest using an arrow function syntax to solve the `this` problem, and my follow-up question then became "how exactly does the arrow function syntax work to solve `this`"? I felt like I needed to understand the arrow function's **scope**, so that would be my goal tomorrow to research into it.
+
+## Day 49: March 19, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Review loops, nested loops, looping through objects
+
+**Thoughts**: Nested loops in JavaScript can be confusing and I found it helpful to print out lines such as ``console.log(`Outer loop i: ${i}`)`` and       ``console.log(`Inner loop j: ${j}`)`` to see how many times the outer and inner loops each run and observe the pattern. It might also be helpful to think of the outer loop as a _row_, and inner loop as a _column_ since for every row, there can be `n` number of columns, which is what happens with an inner loop. On a side note, whenever using higher-order functions (ex. map, reduce, filter...) with arrow function syntax with curly braces, I need to remember to actually return the element with a `return` keyword. Otherwise, nothing will be returned from the higher-order functions.
