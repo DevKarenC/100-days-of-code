@@ -549,3 +549,12 @@ how event listeners work with the documentation and YouTube vidoes, since the pr
 - [x] Review loops, nested loops, looping through objects
 
 **Thoughts**: Nested loops in JavaScript can be confusing and I found it helpful to print out lines such as ``console.log(`Outer loop i: ${i}`)`` and       ``console.log(`Inner loop j: ${j}`)`` to see how many times the outer and inner loops each run and observe the pattern. It might also be helpful to think of the outer loop as a _row_, and inner loop as a _column_ since for every row, there can be `n` number of columns, which is what happens with an inner loop. On a side note, whenever using higher-order functions (ex. map, reduce, filter...) with arrow function syntax with curly braces, I need to remember to actually return the element with a `return` keyword. Otherwise, nothing will be returned from the higher-order functions.
+
+## Day 50: March 20, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Learn about bubble sort algorithm
+- [x] Review data types in JavaScript
+
+**Thoughts**: While working on the practice problems, I came across one that utilized Bubble Sort algorithm. I remember that Harvard University's CS50 course offered a [section on sorting algorithms](https://video.cs50.io/gR6nycuZKlM?screen=CRl1MoW0F-E) and one of them being bubble sort, I went back to watch a video and it was very helpful in understanding how the bubble sort algorithm works (ex. bigger number "bubbling" to the right end of the list, focusing on a pair of adjacent numbers at a time). While learning algorithms can be tough, I know that it's important for my career to learn them (as well as data structures). In terms of counting Github contributions, I learned from [this blog post](https://hisaac.net/2016/11/11/why-commits-to-forks-on-github-dont-count-toward-contributions.html) that making commits to a forked repository does not count towards the contribution because Github only intends the forked repo to be a _temporary_ place to store your work before merging into the upstream repo. I have been using forked repo to store my permanent work so I'll have to work on using my forked repos as Github intended.
