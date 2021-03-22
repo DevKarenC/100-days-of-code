@@ -558,3 +558,12 @@ how event listeners work with the documentation and YouTube vidoes, since the pr
 - [x] Review data types in JavaScript
 
 **Thoughts**: While working on the practice problems, I came across one that utilized Bubble Sort algorithm. I remember that Harvard University's CS50 course offered a [section on sorting algorithms](https://video.cs50.io/gR6nycuZKlM?screen=CRl1MoW0F-E) and one of them being bubble sort, I went back to watch a video and it was very helpful in understanding how the bubble sort algorithm works (ex. bigger number "bubbling" to the right end of the list, focusing on a pair of adjacent numbers at a time). While learning algorithms can be tough, I know that it's important for my career to learn them (as well as data structures). In terms of counting Github contributions, I learned from [this blog post](https://hisaac.net/2016/11/11/why-commits-to-forks-on-github-dont-count-toward-contributions.html) that making commits to a forked repository does not count towards the contribution because Github only intends the forked repo to be a _temporary_ place to store your work before merging into the upstream repo. I have been using forked repo to store my permanent work so I'll have to work on using my forked repos as Github intended.
+
+## Day 51: March 21, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Review data types, scope, ES6, and git
+- [x] Checklist.design
+
+**Thoughts**: I came across the [checklist.design](https://www.checklist.design/) while doing research on project checklist and designs. It looks like a great website to reference when I'm building my portfolio site or a capstone project. The website seems more targeted for UI/UX designers to assist with their design work, many checklists suggest good features to have in a website if a developer wants to showcase their development skills. For example, the checklist for the Login page includes "Login via Third Party" and "Link to reset password", which would be good concepts to practice. I'm excited to utilize the checklist.design website for my portfolio.
