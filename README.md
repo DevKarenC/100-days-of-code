@@ -567,3 +567,11 @@ how event listeners work with the documentation and YouTube vidoes, since the pr
 - [x] Checklist.design
 
 **Thoughts**: I came across the [checklist.design](https://www.checklist.design/) while doing research on project checklist and designs. It looks like a great website to reference when I'm building my portfolio site or a capstone project. The website seems more targeted for UI/UX designers to assist with their design work, many checklists suggest good features to have in a website if a developer wants to showcase their development skills. For example, the checklist for the Login page includes "Login via Third Party" and "Link to reset password", which would be good concepts to practice. I'm excited to utilize the checklist.design website for my portfolio.
+
+## Day 52: March 22, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Review nested loops, constructor functions, prototypes (spaced learning!)
+
+**Thoughts**: There are some topics that I like to review on a regular basis, and one of them is nested loops. I watched some YouTube videos on the topic by [The Coding Train's Nested Loops - Processing Tutorial](https://www.youtube.com/watch?v=H7frvcAHXps) and [Steve Griffith - JavaScript Nested Loops with Arrays and Objects](https://www.youtube.com/watch?v=AqgVLYpBWG8), both of which were great videos to refresh and confirm my knowledge on nested loops. In addition, constructor functions and prototypes (especially the prototype object and the dunder proto property) can be confusing if I don't review them periodically. I learned that the prototype property is an object with two properties to it: 1. constructor and 2. __proto__. Dunder proto (__proto__) really just **points** to the prototype object in which the instance has inherited. For example, running this expression `arr.__proto__ === Array.prototype` would evaluate to true since arr instance inherits from the Array object. Spaced repetition and practice are especially helpful in reviewing the concepts that I thought I understood before (but when I come back to review them, some topics tend to get mixed up in my head 🧐). Of course, the best way to retain knowledge is by using them in my code (whether it's for a project or pratice problem).  
