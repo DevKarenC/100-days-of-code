@@ -596,7 +596,7 @@ how event listeners work with the documentation and YouTube vidoes, since the pr
 
 **Thoughts**: When I first started to learn programming, the terms "imperative" and "declarative" styles of programming were confusing to me. In essence, imperative programming describes HOW your program should achieve something (ex. step by step) and is used in object-oriented programming, whereas declarative programming describes WHAT your program should ultimately achieve and is used in functional programming). Now that I know about the higher-order functions and methods, they make more sense to me since higher-order functions make it a lot easier for you to just tell your program what to do (ex. triple every number in the array) rather than having to specify the steps of achieving the same goal. Callback functions were also very confusing to me at first (I mean, it's called a "callback" function - back then I was wondering what exactly you are calling back?). With practice, I am now more comfortable using them in my code and it's such an important part of JavaScript since it's used everywhere.
  
-## Day 54: March 24, 2021
+## Day 55: March 25, 2021
 
 **Today's Progress** 👩🏻‍💻
 
