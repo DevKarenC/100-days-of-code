@@ -605,3 +605,12 @@ how event listeners work with the documentation and YouTube vidoes, since the pr
 - [x] React JS Introduction (The Odin Project)
 
 **Thoughts**: Some notes to self: remember to **actually RETURN** something inside of the higher-order functions and be aware of **what's being returned**! Too many times I have assumed that my function returns a value when in reality, I see `undefined` being returned instead 😅. For the Todo List, I made some small edits to refactor code such as deleting unused imports from modules, removing unnecessary comments (the ones that don't add value to code), and adding consistency to module names (starting all with capital letters). 
+
+## Day 56: March 26, 2021
+
+**Today's Progress** 👩🏻‍💻
+- [x] Update Todo List README
+- [x] Continue the React JS Introduction lesson
+- [x] React State and Props
+
+**Thoughts**: I learned that it's best to update the README when the project is still fresh on your mind. It's been almost 2.5 weeks since I finalized the Todo List project, but I have not gotten around to update the README for it with demo gifs, features, and learning outcomes. It was definitely more difficult to remember everything after some time has passed. But what matters is that I updated it ☺️. Continuing from yesterday, I finished the Introduction to React and the React State and Props lessons from the Odin Project. I had built a project using React before but it was still a nice refresher on topics such as what the JSX is (JavaScript Syntax Extension that allows dynamic HTML), virtual DOM, and that components can have states (which is an object that determines how a component renders and behaves). In addition to watching YouTube videos, I followed along the React tutorial from [Scrimba Learn React Free Course](https://scrimba.com/learn/learnreact) and it was great since I got to work on mini challenges on writing JSX, making my own components, and the overall usage/syntax for react. I will continue working on the tutorial tomorrow as well. 
