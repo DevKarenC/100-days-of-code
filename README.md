@@ -614,3 +614,11 @@ how event listeners work with the documentation and YouTube vidoes, since the pr
 - [x] React State and Props
 
 **Thoughts**: I learned that it's best to update the README when the project is still fresh on your mind. It's been almost 2.5 weeks since I finalized the Todo List project, but I have not gotten around to update the README for it with demo gifs, features, and learning outcomes. It was definitely more difficult to remember everything after some time has passed. But what matters is that I updated it ☺️. Continuing from yesterday, I finished the Introduction to React and the React State and Props lessons from the Odin Project. I had built a project using React before but it was still a nice refresher on topics such as what the JSX is (JavaScript Syntax Extension that allows dynamic HTML), virtual DOM, and that components can have states (which is an object that determines how a component renders and behaves). In addition to watching YouTube videos, I followed along the React tutorial from [Scrimba Learn React Free Course](https://scrimba.com/learn/learnreact) and it was great since I got to work on mini challenges on writing JSX, making my own components, and the overall usage/syntax for react. I will continue working on the tutorial tomorrow as well. 
+
+
+## Day 57: March 27, 2021
+
+**Today's Progress** 👩🏻‍💻
+- [x] Scrimba React tutorial (props, state, event handlers)
+
+**Thoughts**: I continued to work on the React tutorial by Scrimba and it provided good hands-on practice on getting the correct React syntax and learning about props (uni-directional data flow from parent to child), state (change state using the `setState` method), and event handlers. Throughout the lesson, I read the React documentations to supplement the tutorial and I'm glad that I have improved on reading the documentation and understanding it more thoroughly. When I first started learning JavaScript and React, documentation was difficult to understand. It's such an important skill to have since it's the source of truth not only for MDN or React documentation but also for the third party libraries and APIs.
