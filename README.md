@@ -622,3 +622,11 @@ how event listeners work with the documentation and YouTube vidoes, since the pr
 - [x] Scrimba React tutorial (props, state, event handlers)
 
 **Thoughts**: I continued to work on the React tutorial by Scrimba and it provided good hands-on practice on getting the correct React syntax and learning about props (uni-directional data flow from parent to child), state (change state using the `setState` method), and event handlers. Throughout the lesson, I read the React documentations to supplement the tutorial and I'm glad that I have improved on reading the documentation and understanding it more thoroughly. When I first started learning JavaScript and React, documentation was difficult to understand. It's such an important skill to have since it's the source of truth not only for MDN or React documentation but also for the third party libraries and APIs.
+
+## Day 58: March 28, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Work on the React CV Project (The Odin Project)
+
+**Thoughts**: Since React heavily emphasizes the use of components, knowing how to break up UI into reusable components seems like one of the most important skills to have, but also is one of the most difficult to gain. It feels similar to breaking up vanilla JavaScript code into modules to be used with Webpack. Fortunately, both skills will improve with practice and experience over time. So far for the React CV Project, which allows the user to input general, education, and experience data to generate a CV/resume, I have three different components for each section. Each component has form elements for name, email, phone number, and other necessary data to create a CV. For some form elements, I can probably make them as separate reusable components so that the user can click on a button to generate multiple education sections (ex. multiple degrees, previous positions) and provide corresponding information.
