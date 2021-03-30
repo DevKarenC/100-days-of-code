@@ -630,3 +630,13 @@ how event listeners work with the documentation and YouTube vidoes, since the pr
 - [x] Work on the React CV Project (The Odin Project)
 
 **Thoughts**: Since React heavily emphasizes the use of components, knowing how to break up UI into reusable components seems like one of the most important skills to have, but also is one of the most difficult to gain. It feels similar to breaking up vanilla JavaScript code into modules to be used with Webpack. Fortunately, both skills will improve with practice and experience over time. So far for the React CV Project, which allows the user to input general, education, and experience data to generate a CV/resume, I have three different components for each section. Each component has form elements for name, email, phone number, and other necessary data to create a CV. For some form elements, I can probably make them as separate reusable components so that the user can click on a button to generate multiple education sections (ex. multiple degrees, previous positions) and provide corresponding information.
+
+## Day 59: March 29, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Review JS Classes (ES5 & ES6 way of class-subclass)
+- [x] Continue the React CV Project
+- [x] Review React - how to handle inputs and render lists
+
+**Thoughts**: Today I went down the Rabbit hole 🐰 of JavaScript advanced topics: from ES5 way of extending a subclass from baseclass to reading through the documentation and YouTube videos on how the `.call` method works, to how the context/value of `this` is determined, to the difference between the regular function and the arrow function syntax, to the lexical scope. Reflecting back on it, I think they are all related since it's difficult to understand one of these concepts without knowing the other (for example, `this`! It often drives me crazy 🤯). Going down the rabbit hole would be ineffective if I wasn't taking notes or retaining any knowledge that I read or watched, but today was pretty productive because I have a better understanding of the topics listed above. For instance, when you use the standard `function` keyword, the context of `this` depends on where the function was **invoked/called**. When you use arrow functions, the context of `this` depends on where the parent function was **defined**. Next time when I want to focus on the topics on hand, I can try time-boxing the amount of time I am allowed to spend in the rabbit hole. Often times, I do enjoy exploring different parts of JavaScript for the spaced learning opportunity and exposing myself to new concepts, so going down the rabbit hole ispretty interesting 😅
