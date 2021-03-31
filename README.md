@@ -639,3 +639,12 @@ how event listeners work with the documentation and YouTube vidoes, since the pr
 - [x] Go down the rabbit hole of JavaScript 🐰
 
 **Thoughts**: Today I went down the Rabbit hole of JavaScript advanced topics: from ES5 way of extending a subclass from baseclass to reading through the documentation and YouTube videos on how the `.call` method works, to how the context/value of `this` is determined, to the difference between the regular function and the arrow function syntax, to the lexical scope. Reflecting back on it, I think they are all related since it's difficult to understand one of these concepts without knowing the other (for example, `this`! It often drives me crazy 🤯). Going down the rabbit hole would be ineffective if I wasn't taking notes or retaining any knowledge that I read or watched, but today was pretty productive because I have a better understanding of the topics listed above. For instance, when you use the standard `function` keyword, the context of `this` depends on where the function was **invoked/called**. When you use arrow functions, the context of `this` depends on where the parent function was **defined**. Next time when I want to focus on the topics on hand, I can try time-boxing the amount of time I am allowed to spend in the rabbit hole. Often times, I do enjoy exploring different parts of JavaScript for the spaced learning opportunity and exposing myself to new concepts, so going down the rabbit hole is pretty interesting 😅
+
+## Day 60: March 30, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Review the context of `this` in different use cases
+- [x] Continue the React CV Project
+
+**Thoughts**: I focused on how the value/context of `this` in JavaScript changes depending on how the function is invoked (call-site). For the React CV project, I need more practice with applying the concept of which component to store the states (since state belongs to a component) and passing down props (you can pass down state as props!) to the children components since they can get confusing when I work with multiple components. Hopefully after finishing this React project, I will have a better idea on how to navigate such topics.
