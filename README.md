@@ -648,3 +648,13 @@ how event listeners work with the documentation and YouTube vidoes, since the pr
 - [x] Continue the React CV Project
 
 **Thoughts**: I focused on how the value/context of `this` in JavaScript changes depending on how the function is invoked (call-site). For the React CV project, I need more practice with applying the concept of which component to store the states (since state belongs to a component) and passing down props (you can pass down state as props!) to the children components since they can get confusing when I work with multiple components. Hopefully after finishing this React project, I will have a better idea on how to navigate such topics.
+
+## Day 61: March 31, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Study JavaScript "this"
+- [x] Continue the React CV Project
+- [x] Start watching the React Bootcamp Youtube Video series
+
+**Thoughts**: I spent some more time studying `this` and solving some practice problems of determining `this` based on call-sites and the four `this` binding rules. Once again, I clicked on the [purple link - Mastering ‘this’ in JavaScript: Callbacks and bind(), apply(), call()](https://thenewstack.io/mastering-javascript-callbacks-bind-apply-call/) ([already introduced in Day 48 of my 100 days of code 😂](https://github.com/DevKarenC/100-days-of-code#day-48-march-18-2021)) and reminded myself that the `this` value changes when a function gets invoked inside a higher-order function. The callback function follows the `this` context for its enclosing parent function. Besides studying `this`, I wanted to set aside some time to continue the CV project and learn more React so I was able to work on passing down state as props from parent to child components so that a button click will trigger a state change and allow for conditional rendering. I came across the Youtube video series for [React Bootcamp by Tyler McGinnis](https://www.youtube.com/watch?v=8GXXGJRDMdQ) and it looks good for additional React practice, so I'll be continuing the series tomorrow.
