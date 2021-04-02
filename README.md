@@ -658,3 +658,17 @@ how event listeners work with the documentation and YouTube vidoes, since the pr
 - [x] Start watching the React Bootcamp Youtube Video series
 
 **Thoughts**: I spent some more time studying `this` and solving some practice problems of determining `this` based on call-sites and the four `this` binding rules. Once again, I clicked on the [purple link - Mastering ‘this’ in JavaScript: Callbacks and bind(), apply(), call()](https://thenewstack.io/mastering-javascript-callbacks-bind-apply-call/) ([already introduced in Day 48 of my 100 days of code 😂](https://github.com/DevKarenC/100-days-of-code#day-48-march-18-2021)) and reminded myself that the `this` value changes when a function gets invoked inside a higher-order function. The callback function follows the `this` context for its enclosing parent function. Besides studying `this`, I wanted to set aside some time to continue the CV project and learn more React so I was able to work on passing down state as props from parent to child components so that a button click will trigger a state change and allow for conditional rendering. I came across the Youtube video series for [React Bootcamp by Tyler McGinnis](https://www.youtube.com/watch?v=8GXXGJRDMdQ) and it looks good for additional React practice, so I'll be continuing the series tomorrow.
+
+## Day 62: April 1, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Fight the Imposter Syndrome
+- [x] Used recursion to build Hangman game
+- [x] Solve practice problems (mini-algorithms like Pig Latin)
+- [x] Continue the React CV Project
+
+**Thoughts**: As someone learning how to program, there are days where I experience the imposter syndrome. Here are some notes to self for what helped me handle imposter syndrome:
+1. Google "programming gives me imposter syndrome" and realize I'm not the only one feeling this way: as of April 1, 2021, I have found 1,040,000 results on Google search, meaning that others have experienced it (been there, done that!). Reading an article or two helps me learn from others (even senior engineers feel that way so imagine someone trying to land her first software engineer job 🤗)
+2. Help other people in the software development community: this not only makes me feel good about myself for being able to help, but also shows that I actually know something enough to help others understand. The best way to learn is to teach others, so it's good for combatting imposter syndrome and also reinforces my learning!
+3. Look at my old code (and cringe for 30 seconds) and reflect on how far I have accomplished: back in the days, I didn't like working in command line interface. I used to prefer GUI but hey, now CLI is life ☺️. Also, I didn't enjoy using higher-order array functions like `.forEach`, `.map`, `.reduce`. I thought I could accomplish the same goals using for loops and for loops were "easier". But now my go-to functions are higher-order functions and I know how important they are for declarative functional programming. They became easier with practice. Now I try to reduce the number of for loops in my code.
