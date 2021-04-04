@@ -679,3 +679,10 @@ how event listeners work with the documentation and YouTube vidoes, since the pr
 - [x] Solve mini-algorithm problems (difficult - means I'm learning!)
 
 **Thoughts**: Whenever I solve a difficult problem and get stuck, I do the following: take a break, think about it in the shower, sleep and return to it the next day. It helps so much to take a rest or just get up and stretch instead of giving in and looking at the solution. Obviously there are time where I look at the solution; for example, if I don't know what a binary search tree is, I won't spend days and weeks trying to figure out a BST problem. Not giving up and thinking about the problem is a great way to improve critical thinking skills. It feels great when I finally solve the problem and then look at the solution to further learn from others. I didn't mention it in yesterday's post but another thing that helps me tackle imposter syndrome is to imagine how I would support my friend in the same situation. Since I know how much effort my friend (me ☺️) puts into studying programming, I would encourage her by telling her to keep up the good work. You should be your own best friend and champion.
+
+## Day 64: April 3, 2021
+
+**Today's Progress** 👩🏻‍💻
+- [x] Continue to solve mini-algorithm problems
+
+**Thoughts**: I continued to solve mini-algorithm problems from yesterday (I refer to them as mini because I'm not actually using algorithms such as binary search, sort, or dynamic programming, but I do have to think harder and put more effort into solving them than other problems 😅). I'm proud that I was able to solve the problems that I was initially stuck on. For some problems, I solved it utilizing stack data structure and nested loops. I hope to wrap them up tomorrow and look at how other people solved them!
