@@ -686,3 +686,11 @@ how event listeners work with the documentation and YouTube vidoes, since the pr
 - [x] Continue to solve mini-algorithm problems
 
 **Thoughts**: I continued to solve mini-algorithm problems from yesterday (I refer to them as mini because I'm not actually using algorithms such as binary search, sort, or dynamic programming, but I do have to think harder and put more effort into solving them than other problems 😅). I'm proud that I was able to solve the problems that I was initially stuck on. For some problems, I solved it utilizing stack data structure and nested loops. I hope to wrap them up tomorrow and look at how other people solved them!
+
+## Day 65: April 4, 2021
+
+**Today's Progress** 👩🏻‍💻
+- [x] Continue the React CV Project
+- [x] Solve the mini-algorithm problems and learn from others' code line by line 
+
+**Thoughts**: One of the good ways to improve programming skills is to read other people's code. It helps because you get to know how others approached the problem and implemented it. Although helpful, it is still one of the difficult skills to have and sometimes I don't even understand what I wrote a week ago unless I left good comments for the future self 👀. For one of the problems that I struggled with, I reviewed someone else's solution line by line and wrote comments so I can refer to them later. I noticed that while writing comments to understand the code is important but it's also important to understand their overall strategy and the main goal of each line of code (for example, it might be easy to figure out that a line of code is checking whether a property already exists in the object, but you also need to know **why** they are checking for the property. For the question I was referring to, it was to check if there was a duplicate value in the object.)
