@@ -694,3 +694,19 @@ how event listeners work with the documentation and YouTube vidoes, since the pr
 - [x] Solve the mini-algorithm problems and learn from others' code line by line 
 
 **Thoughts**: One of the good ways to improve programming skills is to read other people's code. It helps because you get to know how others approached the problem and implemented it. Although helpful, it is still one of the difficult skills to have and sometimes I don't even understand what I wrote a week ago unless I left good comments for the future self 👀. For one of the problems that I struggled with, I reviewed someone else's solution line by line and wrote comments so I can refer to them later. I noticed that while writing comments to understand the code is important but it's also important to understand their overall strategy and the main goal of each line of code (for example, it might be easy to figure out that a line of code is checking whether a property already exists in the object, but you also need to know **why** they are checking for the property. For the question I was referring to, it was to check if there was a duplicate value in the object.)
+
+## Day 66: April 5, 2021
+
+**Today's Progress** 👩🏻‍💻
+- [x] Finalize the React CV Project
+- [x] Re-do the problem I was stuck on without looking back at notes
+
+**Thoughts**: I'm glad I was able to solve the problem that I was struggling with yesterday, without looking back at notes or solution. It's a good practice since it enforces what I learned and tells me whether I truly understood the solution and the approach instead of merely memorizing the answer (of course there are times where memorizing helps a lot!). I was able to finalize the React CV Project and updated the README with some learning goals and the demo gif as always. From completing the project, I obtained the understanding of conditional/dynamic rendering of components, state management and props system.
+
+## Day 67: April 6, 2021
+
+**Today's Progress** 👩🏻‍💻
+- [x] Free React Bootcamp Videos Day 1 and 2
+
+**Thoughts**: From watching the [Free React.js Bootcamp videos by uidotdev](https://www.youtube.com/watch?v=NHfRLQuHjsU), I learned about how React works under the hood (for example, the `React.createElement()` method and what arguments it takes in, how React **elements** are different from React **components**. "**React Component** is a **function or class**, which optionally accepts input, and **returns a React Element**.") Also, the instructor clearly explained that `props` are to React components, what `arguments` are to functions. Along with additional practice with passing in props to components and dynamic rendering using the setState method, I am becoming more comfortable with React. I will be starting the Memory Game project tomorrow as suggested by the Odin Project as well as learn about the lifecycle methods and hooks.
+
