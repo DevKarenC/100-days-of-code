@@ -710,3 +710,27 @@ how event listeners work with the documentation and YouTube vidoes, since the pr
 
 **Thoughts**: From watching the [Free React.js Bootcamp videos by uidotdev](https://www.youtube.com/watch?v=NHfRLQuHjsU), I learned about how React works under the hood (for example, the `React.createElement()` method and what arguments it takes in, how React **elements** are different from React **components**. "**React Component** is a **function or class**, which optionally accepts input, and **returns a React Element**.") Also, the instructor clearly explained that `props` are to React components, what `arguments` are to functions. Along with additional practice with passing in props to components and dynamic rendering using the setState method, I am becoming more comfortable with React. I will be starting the Memory Game project tomorrow as suggested by the Odin Project as well as learn about the lifecycle methods and hooks.
 
+## Day 68: April 7, 2021
+
+**Today's Progress** 👩🏻‍💻
+- [x] Watch the Free React Bootcamp Video - Day 3
+- [x] Learn about React Lifecycle Methods
+- [x] Start working on the React Memory Game
+- [x] Learn about React Hooks
+
+**Thoughts**: I spent some time learning about the React lifecycle methods and the sequence of how they work:
+1. First the `constructor` function will be called and the initial states will be established.
+2. UI will be rendered with those initial states using the `render` method.
+3. Once mounted to the DOM, `componentDidMount` is called.
+4. If there are any updates to the components (ex. new props/states), `componentDidUpdate` will be called.
+5. If there are components being unmounted, `componentWillUnmount` will be called immediately before a component is unmounted and destroyed.
+The Free React bootcamp video was good for learning the basics of React but since this video was released before the React hooks were introduced, I watched a [different video](https://www.youtube.com/watch?v=eX_L39UvZes&t=7s) to learn how to use hooks inside of functional components. Funny enough, just as I learned about React lifecycle methods, hooks encourage thinking in terms of synchronization rather than lifecycle methods. Regardless, lifecycle methods are still important part of React since not all code is written using hooks and hooks such as `useEffect` still have a similar idea as lifecycle methods.
+
+## Day 69: April 8, 2021
+
+**Today's Progress** 👩🏻‍💻
+- [x] Create a number guessing game using vanilla JavaScript
+- [x] Learn about React Hooks
+- [x] Work on the React Memory Game
+
+**Thoughts**: The best way to learn something is by doing, so I'm using Hooks for the React Memory Game (spongebob squarepants theme 🧽). Unlike class components, there is less code to achieve the same goals for the functional components. They utilize destructuring very often as well. Overall, I enjoy how React is more clean to read and write than vanilla JavaScript, thanks to JSX. I'm excited to start building more projects using React 🥳
