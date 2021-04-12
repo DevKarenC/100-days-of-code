@@ -741,3 +741,20 @@ The Free React bootcamp video was good for learning the basics of React but sinc
 - [x] Continue working on the React Memory Game
 
 **Thoughts**: I continued to work on the React Memory Game and made good progress on the important features of the game. Before diving into writing code, I took the time to brainstorm on how to achieve a functionality (ex. clicking on a card increases a score unless a duplicate card is chosen - in which case, game over). I came up with multiple approaches and ultimately proceeded with the one that made the most sense to me. For example, I didn't feel like there was a need for individual Card component to know that they are clicked; only the App component (parent) needs to know in order to keep track of the game. Fortunately this logic worked out pretty well. Another logic that was confusing was implementing the GameOver component. I wasn't sure how to communicate the click event for the "play again" button from the GameOver component (child) to the App component (parent). I thought I needed to have a "play again" logic (i.e. reset game data) inside of GameOver since that's where the button element was. But since App is in charge of handling game data such as cardsClicked and checking for duplicates, I realized I can have the reset the game data logic inside of App. I just needed to pass down that logic via props for the onClick event handler to the button inside of GameOver component. Nothing is being "passed up" to App from GameOver - the child component is just handling the onClick event for the parent. Also learned that you can provide `onClick` and other events only on **DOM elements**, not your own custom components (this explains why I passed down the onClick logic down to GameOver component via props).
+
+## Day 71: April 10, 2021
+
+**Today's Progress** 👩🏻‍💻
+- [x] Finalize the Memory Game
+- [x] Review recursion
+
+**Thoughts**: I was able to find a solution to the problem where the character cards were not randomized on the initial render. Under the hood, the cards would render first and then the cards array would be shuffled. By the time the cards are randomized, because the UI is already rendered, the randomized array does not display correctly. The fix was isolating the shuffle algorithm into a helper function, importing it into the characters array file to run it inside of that file (so they will be appear random on the first render), and also importing the helper function into App to invoke it upon card click. Working with multiple components for the project helped me finally understand what people mean by ["using callback functions" to pass information from child to parent.](https://www.pluralsight.com/guides/react-communicating-between-components). Essentially, the parent component is passing in a function to the child via props, and the child just executes that callback function from the parent. Since the parent has reference to that function, the parent has access to the changes triggered by the execution of the function. For example, look at the `<App />` and `<HowToPlay />` and how the `handleHowToPlay` function is passed down from the `<App />` to `<HowtoPlay />` child component. When a button inside of `<HowToPlay />` component is clicked, `handleHowToPlay` function is executed, which triggers the `setShowHowToPlay` function to modify the `showHowToPlay` state. 
+
+## Day 72: April 11, 2021
+
+**Today's Progress** 👩🏻‍💻
+- [x] Refactor the React Memory Game code
+- [x] Update README for React Memory Game
+- [x] Review recursion
+
+**Thoughts**: I am gradually getting used to updating the README files with different elements such as the one line summary of the project, learning outcomes, and demo screenshots and gifs. I remember when updating a README was a daunting task, especially for the first few projects.
