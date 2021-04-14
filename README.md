@@ -758,3 +758,20 @@ The Free React bootcamp video was good for learning the basics of React but sinc
 - [x] Review recursion
 
 **Thoughts**: I am gradually getting used to updating the README files with different elements such as the one line summary of the project, learning outcomes, and demo screenshots and gifs. I remember when updating a README was a daunting task, especially for the first few projects.
+
+## Day 73: April 12, 2021
+
+**Today's Progress** 👩🏻‍💻
+- [x] Review Recursion and solve practice problems
+- [x] Learn about React Routers
+- [x] Start the React Shopping Cart
+
+**Thoughts**: I took some time to review the concepts of recursion and solve several practice problems. For recursion, I think recognizing a pattern and breaking it down into smaller, working parts is the key to solving it. Recursion has been one of the most difficult concepts for me to grasp, and I'm hoping that with practice it will get easier. In addition, I learned about React Routers and they feel similar to the Express framework for Node.js. Using this new knowledge, I started another React project (inspired by the Odin Project) for an imaginary website to continue practice using React and React Routers. For styling, I decided to learn and use Styled Components instead of regular CSS. Many companies utilize Styled Components, including  Zillow, Spotify, and Patreon. I'm excited to add another skill under my belt!
+
+## Day 74: April 13, 2021
+
+**Today's Progress** 👩🏻‍💻
+- [x] Review Recursion and solve practice problems
+- [x] Continue working on the React Shopping Cart
+
+**Thoughts**: For the React Shopping Cart project, I will be rewriting and refactoring the code from a different project that I was working on to practice React, but I didn't quite finish yet. They are similar in the sense that both of them would have a shopping cart and other menu pages to utilize React Routers. Because there will be some parts that would be removed and added for the purpose of this project, it involved heavy refactoring from changing regular CSS to using Styled Components and other features. So far I enjoy working with Styled Components because it's easier to maintain and dynamically style different components. I can't wait to learn other libraries such as Redux for my React applications ☺️
