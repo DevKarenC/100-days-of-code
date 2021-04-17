@@ -802,4 +802,5 @@ The Free React bootcamp video was good for learning the basics of React but sinc
 1. Know which function called which function so you know WHERE to return the return value to. It helped to label which previous function invoked the current function call.
 2. Keep track of what's remaining in the call stack and what has been popped off. Remember that a function pops off the call stack when it **returns**.
 3. When there are multiple recursive calls made in one function call, remember that JavaScript is single-threaded and works from top to bottom. Therefore, the latter recursive function does not get called until we have a return value from the first recursive call.
+
 Note to self: Everyone works based on their own time zone, so don't feel rushed even if you don't understand recursion right away! Practice makes perfect 🤗
