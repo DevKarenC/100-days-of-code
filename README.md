@@ -775,3 +775,31 @@ The Free React bootcamp video was good for learning the basics of React but sinc
 - [x] Continue working on the React Shopping Cart
 
 **Thoughts**: For the React Shopping Cart project, I will be rewriting and refactoring the code from a different project that I was working on to practice React, but I didn't quite finish yet. They are similar in the sense that both of them would have a shopping cart and other menu pages to utilize React Routers. Because there will be some parts that would be removed and added for the purpose of this project, it involved heavy refactoring from changing regular CSS to using Styled Components and other features. So far I enjoy working with Styled Components because it's easier to maintain and dynamically style different components. I can't wait to learn other libraries such as Redux for my React applications ☺️
+
+
+## Day 75: April 14, 2021
+
+**Today's Progress** 👩🏻‍💻
+- [x] Practice Recursion
+- [x] Continue working on the React Shopping Cart
+
+**Thoughts**: While working on the React Shopping project, I learned the importance of appropriately naming your variables and functions. For example, there were some menu items which were only available hot, so they didn't have any price to display for iced. In my old code, I named that conditional rendering function as `hotCoffeeOnly`. It confused me at first since it was not an intuitive name and I had to read into the function to understand the purpose. I changed the function name to be `renderMenuItemPrice` to match the function's use case. I think it helps to name functions with an action verb such as `set` or `render` depending on what the function is doing.
+
+## Day 76: April 15, 2021
+
+**Today's Progress** 👩🏻‍💻
+- [x] Practice Recursion
+- [x] Continue working on the React Shopping Cart
+
+**Thoughts**: I worked on flattening a nested array using recursion and without loops since there can be many variations of the same recursion problem. I came across a helpful [Stack Overflow answer](https://stackoverflow.com/questions/54620407/flatten-nested-arrays-using-recursion-and-without-using-loops), which explained the concept of stepping down (step into the element with a recursive call, if it happens to be an array as well) and stepping right (slicing the array to go through all the elements of the original array). It's important that you modify the array to continue approaching the base case (in this case, when the array length is 0). As for the React Shopping Cart project, I added some styling to override the native HTML input (number type) by adding a bigger increment and decrement quantity buttons. Also, I got more practice with navigating through the props system. I never worked on a shopping cart before so handling the "Add to Cart" button, Cart component, and making sure the Cart has the necessary information to show to the user when the Cart page shows up would be good practice
+
+## Day 77: April 16, 2021
+
+**Today's Progress** 👩🏻‍💻
+- [x] Practice Recursion
+
+**Thoughts**: I spent some time re-doing the recursion problems that I was stuck before, this time utilizing a Debugger to step through each recursive call. I have used code visualization sites such as [AlgoViz](https://algoviz.io/) and [JavaScript Tutor](http://pythontutor.com/javascript.html#mode=edit), but a browser debugger was useful because it was easier to trace the call stack and the value of different variables in each function's execution context. I walked through the solution of flattening a nestd array using recursion without loops, writing out each call. It was more complicated because the solution occasionally involved 2 recursive calls in each function call. While walking through the solution, I noticed that there are several important things to note:
+1. Know which function called which function so you know WHERE to return the return value to. It helped to label which previous function invoked the current function call.
+2. Keep track of what's remaining in the call stack and what has been popped off. Remember that a function pops off the call stack when it **returns**.
+3. When there are multiple recursive calls made in one function call, remember that JavaScript is single-threaded and works from top to bottom. Therefore, the latter recursive function does not get called until we have a return value from the first recursive call.
+Note to self: Everyone works based on their own time zone, so don't feel rushed even if you don't understand recursion right away! Practice makes perfect 🤗
