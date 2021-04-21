@@ -226,7 +226,7 @@
 - [x] Finalize the Tic-tac-toe project
 - [x] JavaScript30 Day 11 (Custom HTML Video Player)
 
-**Thoughts**: There are just so many things I learned while working on the tic-tac-toe project (which will be discussed in the project Readme) but the big ones are utilizing comments to improve code readability and managing the scope creep. I found it helpful to leave comments in code to myself (and future fellow engineers 😎) to demonstrate the rationale on why I wrote certain functions. I am aware that there are different opinions on whether comments improve code readability or not, and I can see where both sides are coming from. For now, I like to leave comments on my work since there is still much for me to learn, and one way I learn is by documenting the work. As for managing the scope creep, I found myself coming up with new features that wasn't included in my original list of features. While they were good features to have for the user experience, it was also important for me to finish the project and distribute the resources (time and energy) on other programming topics. 
+**Thoughts**: There are just so many things I learned while working on the tic-tac-toe project (which will be discussed in the project Readme) but the big ones are utilizing comments to improve code readability and managing the scope creep. I found it helpful to leave comments in code to myself (and future fellow engineers 😎) to demonstrate the rationale on why I wrote certain functions. I am aware that there are different opinions on whether comments improve code readability or not, and I can see where both sides are coming from. For now, I like to leave comments on my work since there is still much for me to learn, and one way I learn is by documenting the work. As for managing the scope creep, I found myself coming up with new features that wasn't included in my original list of features. While they were good features to have for the user experience, it was also important for me to finish the project and distribute the resources (time and energy) on other programming topics.
 
 **Link to work:** [Tic-tac-toe Project](https://github.com/DevKarenC/tic-tac-toe)
 
@@ -238,7 +238,7 @@
 - [x] Review Prototypes, prototype chain, this keyword
 - [x] JavaScript30 Day 12 (Key Sequence Detection)
 
-**Thoughts**: I was able to get feedback on how to improve my code for the tic-tac-toe project from a senior engineer. Some of the new things I learned is that it can be beneficial to create constants for values such as empty string, O symbol string, and X symbol string since that would help me manage the values with one source of truth. If I were to change the symbols to some other values such as a space or a diamond, I can simply change the value for the constants. The naming convention for constants is using all uppercase characters. In addition, I was able to remove unnecessary variables that don't add value to the code. For instance, the `haveWinner` boolean variable inside the `determineWinner()` function was unnecessary since I could have simply returned `true` or `false`. 
+**Thoughts**: I was able to get feedback on how to improve my code for the tic-tac-toe project from a senior engineer. Some of the new things I learned is that it can be beneficial to create constants for values such as empty string, O symbol string, and X symbol string since that would help me manage the values with one source of truth. If I were to change the symbols to some other values such as a space or a diamond, I can simply change the value for the constants. The naming convention for constants is using all uppercase characters. In addition, I was able to remove unnecessary variables that don't add value to the code. For instance, the `haveWinner` boolean variable inside the `determineWinner()` function was unnecessary since I could have simply returned `true` or `false`.
 
 ## Day 17: Feb 15, 2021
 
@@ -248,7 +248,7 @@
 - [x] JavaScript30 Day 13 (Slide in on Scroll)
 - [x] ES6 Classes (The Odin Project)
 
-**Thoughts**: I can say that the tic-tac-toe project is "officially" done now that I updated the Readme for it! It's a good way to showcase what I have done and also acts as a personal reminder for my accomplishments. I am also almost halfway done with the Wes Bos' JavaScript30 courses, and I appreciate learning something new everyday. The Slide in on Scroll lesson was focused on understanding the different heights (innerHeight, offsetTop...) related to the window or the HTML element and involved more math than other topics. The debouncing and throttling are also something I can see myself using in the future. This [site](http://demo.nimius.net/debounce_throttle/) helped me understand the difference between the two. 
+**Thoughts**: I can say that the tic-tac-toe project is "officially" done now that I updated the Readme for it! It's a good way to showcase what I have done and also acts as a personal reminder for my accomplishments. I am also almost halfway done with the Wes Bos' JavaScript30 courses, and I appreciate learning something new everyday. The Slide in on Scroll lesson was focused on understanding the different heights (innerHeight, offsetTop...) related to the window or the HTML element and involved more math than other topics. The debouncing and throttling are also something I can see myself using in the future. This [site](http://demo.nimius.net/debounce_throttle/) helped me understand the difference between the two.
 
 ## Day 18: Feb 16, 2021
 
@@ -259,7 +259,6 @@
 - [x] The History of JavaScript - ES6 Modules (The Odin Project)
 
 **Thoughts**: I refactored the code for the Recipe Library to use ES6 classes feature instead of using plain constructors. I feel more confident in using classes in my future projects and look forward to using the `extends` keyword as well to practice inheritance. Today's JavaScript30 lesson on pass by reference vs. pass by copy refreshed my memory on those topics. The lesson was released in 2017, so it was interesting to learn that some features mentioned as "not official" in JS actually became an official feature in JS - such as using a spread operator with an object literal to make a shallow copy of it. Also learning of the [tc39 repository](https://github.com/tc39/proposals) where one can see the different features being proposed to be official is very cool. I will continue to learn from the ES6 Modules lesson in the Odin Project.
-
 
 ## Day 19: Feb 17, 2021
 
@@ -275,7 +274,7 @@
 **Today's Progress** 👩🏻‍💻
 
 - [x] Learn about the Object-oriented Programming Principles (The Odin Project)
-- [x] JavaScript30 Day 15 Bonus Challenges 
+- [x] JavaScript30 Day 15 Bonus Challenges
 - [x] JavaScript30 Day 25 (Event Capture, Propagation, Bubbling, and Once)
 - [x] Start the Pet Photography Website project
 
@@ -308,7 +307,7 @@
 - [x] JavaScript30 Day 18 (Tally String Times with Reduce)
 - [x] Continue working on the Pet Photography Website Project
 
-**Thoughts**: Learning how to add the total durations of videos using the array reduce method was a good way to build on the foundations of JavaScript. Before diving into Wes Bos' solution, I solved the problem on my own using different methods such as .forEach(), .map(), .split(), and more. It felt great when I learned that I wrote a similar line of code as a pro but also created something different independently. Out of the three tabs in my project scope, I finished two tabs so I only have one more to go. I hope to finalize the pet photography website project tomorrow and look forward to receiving feedback to improve my code. 
+**Thoughts**: Learning how to add the total durations of videos using the array reduce method was a good way to build on the foundations of JavaScript. Before diving into Wes Bos' solution, I solved the problem on my own using different methods such as .forEach(), .map(), .split(), and more. It felt great when I learned that I wrote a similar line of code as a pro but also created something different independently. Out of the three tabs in my project scope, I finished two tabs so I only have one more to go. I hope to finalize the pet photography website project tomorrow and look forward to receiving feedback to improve my code.
 
 ## Day 24: Feb 22, 2021
 
@@ -328,7 +327,7 @@
 - [x] Learn about Webpack asset management
 - [x] Refactor code, update readme, and deploy the Pet Photography Website Project
 
-**Thoughts**: I loved today's JS30 topic of Speech recognition since I always thought it would be cool to work with it! I primarily use Firefox for deveopment so when I first tried the feature in a Firefox browser, unfortunately it did not work due to the feature not being supported (in fact, multitude of other browsers did not support the Speech Recognition Web API according to the browser compatibility table in MDN docs). At the end of the lesson, I enjoyed thinking about the practical examples like "Siri/Alexa -  get the weather" as suggested by Wes Bos and I can't wait to build an application that uses speech recognition. One idea that comes to mind is a [Smart Home with Raspberry Pi](https://hacks.mozilla.org/2018/02/how-to-build-your-own-private-smart-home-with-a-raspberry-pi-and-mozillas-things-gateway/). As for the Pet Photography website, I refactored the code base to include a file for the constants such as phone number, email, address, and business hours so that it's easier to access or change them in the future. I'm glad that I had the opportunity to practice implementing the Single Responsibility principle and using webpack for module bundling. 
+**Thoughts**: I loved today's JS30 topic of Speech recognition since I always thought it would be cool to work with it! I primarily use Firefox for deveopment so when I first tried the feature in a Firefox browser, unfortunately it did not work due to the feature not being supported (in fact, multitude of other browsers did not support the Speech Recognition Web API according to the browser compatibility table in MDN docs). At the end of the lesson, I enjoyed thinking about the practical examples like "Siri/Alexa - get the weather" as suggested by Wes Bos and I can't wait to build an application that uses speech recognition. One idea that comes to mind is a [Smart Home with Raspberry Pi](https://hacks.mozilla.org/2018/02/how-to-build-your-own-private-smart-home-with-a-raspberry-pi-and-mozillas-things-gateway/). As for the Pet Photography website, I refactored the code base to include a file for the constants such as phone number, email, address, and business hours so that it's easier to access or change them in the future. I'm glad that I had the opportunity to practice implementing the Single Responsibility principle and using webpack for module bundling.
 
 ## Day 26: Feb 24, 2021
 
@@ -352,7 +351,6 @@
 
 **Thoughts**: As I go through the JavaScript30 lessons, not only do I learn from the lessons but also from other people's YouTube video comments. Today's lesson was related to hovering over the links and making the white highlight span appear on the hovered links. One of the comments wrote that this feature would be useful for the tooltip system, which would be cool to have in my future projects. For my next project, I plan to work on the Todo list as suggested by The Odin Project, and I designed some wireframes and set up the configuration files for eslint and webpack. I have been using eslint extension for VSCode, but not as a dev-dependency. It's awesome that I will be learning from a different style guide (I chose Airbnb), but I also acknowledge that it's important to stay flexible and open-minded since every team would follow a different style guide.
 
-
 ## Day 28: Feb 26, 2021
 
 **Today's Progress** 👩🏻‍💻
@@ -370,7 +368,7 @@
 - [x] JavaScript30 Day 6 (fetch type ahead)
 - [x] Continue the Todo List Project
 
-**Thoughts**: I went back to Day 6 of JavaScript30 since I wanted to learn about Fetch API, but I learned more regex than fetch in my opinion. Regex can be useful in many situations so I'm glad I got additional practice. For the Todo list project, I created two classes - one for TodoList and the other for TodoItem. I did not make one extend from another class, since I thought those two classes were pretty distinctive and did not require inheritance. Perhaps in the future I can refactor code, but that's the idea for now. In addition, I reviewed my project features to see how the user would add a todo item and noticed that the user can only add a todo item inside a todo list (i.e. folder of todo items). Therefore, I only exported the TodoList class with addTodo method, which creates a new instance of a TodoItem class. It takes me some time to plan it out, but it's fun thinking in terms of object oriented programming 👏🏻 
+**Thoughts**: I went back to Day 6 of JavaScript30 since I wanted to learn about Fetch API, but I learned more regex than fetch in my opinion. Regex can be useful in many situations so I'm glad I got additional practice. For the Todo list project, I created two classes - one for TodoList and the other for TodoItem. I did not make one extend from another class, since I thought those two classes were pretty distinctive and did not require inheritance. Perhaps in the future I can refactor code, but that's the idea for now. In addition, I reviewed my project features to see how the user would add a todo item and noticed that the user can only add a todo item inside a todo list (i.e. folder of todo items). Therefore, I only exported the TodoList class with addTodo method, which creates a new instance of a TodoItem class. It takes me some time to plan it out, but it's fun thinking in terms of object oriented programming 👏🏻
 
 ## Day 30: Feb 28, 2021
 
@@ -379,7 +377,7 @@
 - [x] JavaScript30 Day 23 (Speech Synthesis)
 - [x] Continue the Todo List Project
 
-**Thoughts**: There is always a lot to learn in the JavaScript30 lessons, and I have a longer list of what I learned today. For example, it's a good idea to look through the YouTube comments to see if anyone else had the similar problem as me, or offered a solution. The project did not work for me in Firefox and I thought the feature wasn't supported in the Firefox browser. But the browser support table suggested otherwise, and I learned from a comment that I can call `.getVoices()` method on `window.speechSynthesis` and then call the `populateVoices()` method on page load. After following another programmer's advice, it worked on both Chrome and Firefox like magic! In addition, it's great to learn from how Wes Bos structures his code; he divides functionalities into multiple functions instead of putting everything into one big function. Also, I like how we can first test if the callback function is working properly by including a simple `console.log()` inside the function definition to see if we see the text in the console. As for the Todo List, I am slowly making progress by adding functionality to the "+ New List" button. 
+**Thoughts**: There is always a lot to learn in the JavaScript30 lessons, and I have a longer list of what I learned today. For example, it's a good idea to look through the YouTube comments to see if anyone else had the similar problem as me, or offered a solution. The project did not work for me in Firefox and I thought the feature wasn't supported in the Firefox browser. But the browser support table suggested otherwise, and I learned from a comment that I can call `.getVoices()` method on `window.speechSynthesis` and then call the `populateVoices()` method on page load. After following another programmer's advice, it worked on both Chrome and Firefox like magic! In addition, it's great to learn from how Wes Bos structures his code; he divides functionalities into multiple functions instead of putting everything into one big function. Also, I like how we can first test if the callback function is working properly by including a simple `console.log()` inside the function definition to see if we see the text in the console. As for the Todo List, I am slowly making progress by adding functionality to the "+ New List" button.
 
 ## Day 31: Mar 1, 2021
 
@@ -388,7 +386,7 @@
 - [x] JavaScript30 Day 24 (Sticky Nav)
 - [x] Continue the Todo List Project
 
-**Thoughts**: From today's JavaScript 30 lesson, I was able to fill in some gaps in my CSS knowledge. For instance, I did not realize that you can add a class to the overarching parent div (such as body) and use CSS combinators to conditionally refer to the descendant elements for the before and after CSS effects. Also, I learned the difference between the `width` and `max-width` properties in terms of resizing the screen, since the element can be responsive when used with `max-width`. For the Todo List project, I worked on getting the static version of the todo list done so that I have the visuals to refer to when converting it to the dynamic page. It's helpful when I can easily see how the page would look and to which elements I should add the event listeners. 
+**Thoughts**: From today's JavaScript 30 lesson, I was able to fill in some gaps in my CSS knowledge. For instance, I did not realize that you can add a class to the overarching parent div (such as body) and use CSS combinators to conditionally refer to the descendant elements for the before and after CSS effects. Also, I learned the difference between the `width` and `max-width` properties in terms of resizing the screen, since the element can be responsive when used with `max-width`. For the Todo List project, I worked on getting the static version of the todo list done so that I have the visuals to refer to when converting it to the dynamic page. It's helpful when I can easily see how the page would look and to which elements I should add the event listeners.
 
 ## Day 32: Mar 2, 2021
 
@@ -424,7 +422,7 @@
 - [x] JavaScript30 Day 30 (Last day!) (Whack-A-Mole)
 - [x] Continue the Todo List Project
 
-**Thoughts**: I can't believe today was the last day of JavaScript30 and I have finished all 30 exercises! It's been a great journey and I learned so much about vanilla JavaScript, HTML, CSS, and various Web APIs (check out my repo [here](https://github.com/DevKarenC/JavaScript30-with-notes), where I recorded what I learned from the lessons). I am planning on compiling all the exercises into one website. I also noticed that some people added additional features and functionalities to the exercises, which I think is a good idea to continue practicing JavaScript and build up the foundations. 
+**Thoughts**: I can't believe today was the last day of JavaScript30 and I have finished all 30 exercises! It's been a great journey and I learned so much about vanilla JavaScript, HTML, CSS, and various Web APIs (check out my repo [here](https://github.com/DevKarenC/JavaScript30-with-notes), where I recorded what I learned from the lessons). I am planning on compiling all the exercises into one website. I also noticed that some people added additional features and functionalities to the exercises, which I think is a good idea to continue practicing JavaScript and build up the foundations.
 Since I already went through the exercises once before, I can focus on expressing my creativity to add different customizations. Wes Bos also offers FlexBox/CSS Grid courses, and they look helpful so I'll get started on those tomorrow.
 
 ## Day 36: March 6, 2021
@@ -521,7 +519,7 @@ how event listeners work with the documentation and YouTube vidoes, since the pr
 - [x] Review CLI
 - [x] Learn about Test-Driven Development and Reading Specs
 
-**Thoughts**: For the COVID-19 Tracker project that I worked on before, I decided to update the Readme to make it easier for people to understand what the project is about, its features, and different technologies used (languages, API, libraries). Ever since the first Readme, I had improved in showcasing my work with demo screenshots and GIFs, instead of leaving it blank or just writing one or two lines without a detailed description. 
+**Thoughts**: For the COVID-19 Tracker project that I worked on before, I decided to update the Readme to make it easier for people to understand what the project is about, its features, and different technologies used (languages, API, libraries). Ever since the first Readme, I had improved in showcasing my work with demo screenshots and GIFs, instead of leaving it blank or just writing one or two lines without a detailed description.
 
 ## Day 47: March 17, 2021
 
@@ -548,7 +546,7 @@ how event listeners work with the documentation and YouTube vidoes, since the pr
 
 - [x] Review loops, nested loops, looping through objects
 
-**Thoughts**: Nested loops in JavaScript can be confusing and I found it helpful to print out lines such as ``console.log(`Outer loop i: ${i}`)`` and       ``console.log(`Inner loop j: ${j}`)`` to see how many times the outer and inner loops each run and observe the pattern. It might also be helpful to think of the outer loop as a _row_, and inner loop as a _column_ since for every row, there can be `n` number of columns, which is what happens with an inner loop. On a side note, whenever using higher-order functions (ex. map, reduce, filter...) with arrow function syntax with curly braces, I need to remember to actually return the element with a `return` keyword. Otherwise, nothing will be returned from the higher-order functions.
+**Thoughts**: Nested loops in JavaScript can be confusing and I found it helpful to print out lines such as `` console.log(`Outer loop i: ${i}`) `` and `` console.log(`Inner loop j: ${j}`) `` to see how many times the outer and inner loops each run and observe the pattern. It might also be helpful to think of the outer loop as a _row_, and inner loop as a _column_ since for every row, there can be `n` number of columns, which is what happens with an inner loop. On a side note, whenever using higher-order functions (ex. map, reduce, filter...) with arrow function syntax with curly braces, I need to remember to actually return the element with a `return` keyword. Otherwise, nothing will be returned from the higher-order functions.
 
 ## Day 50: March 20, 2021
 
@@ -574,7 +572,7 @@ how event listeners work with the documentation and YouTube vidoes, since the pr
 
 - [x] Review nested loops, constructor functions, prototypes (spaced learning!)
 
-**Thoughts**: There are some topics that I like to review on a regular basis, and one of them is nested loops. I watched some YouTube videos on the topic by [The Coding Train's Nested Loops - Processing Tutorial](https://www.youtube.com/watch?v=H7frvcAHXps) and [Steve Griffith - JavaScript Nested Loops with Arrays and Objects](https://www.youtube.com/watch?v=AqgVLYpBWG8), both of which were great videos to refresh and confirm my knowledge on nested loops. In addition, constructor functions and prototypes (especially the prototype object and the dunder proto property) can be confusing if I don't review them periodically. I learned that the prototype property is an object with two properties to it: 1. constructor and 2. __proto__. Dunder proto (__proto__) really just **points** to the prototype object in which the instance has inherited. For example, running this expression `arr.__proto__ === Array.prototype` would evaluate to true since arr instance inherits from the Array object. Spaced repetition and practice are especially helpful in reviewing the concepts that I thought I understood before (but when I come back to review them, some topics tend to get mixed up in my head 🧐). Of course, the best way to retain knowledge is by using them in my code (whether it's for a project or pratice problem).  
+**Thoughts**: There are some topics that I like to review on a regular basis, and one of them is nested loops. I watched some YouTube videos on the topic by [The Coding Train's Nested Loops - Processing Tutorial](https://www.youtube.com/watch?v=H7frvcAHXps) and [Steve Griffith - JavaScript Nested Loops with Arrays and Objects](https://www.youtube.com/watch?v=AqgVLYpBWG8), both of which were great videos to refresh and confirm my knowledge on nested loops. In addition, constructor functions and prototypes (especially the prototype object and the dunder proto property) can be confusing if I don't review them periodically. I learned that the prototype property is an object with two properties to it: 1. constructor and 2. **proto**. Dunder proto (**proto**) really just **points** to the prototype object in which the instance has inherited. For example, running this expression `arr.__proto__ === Array.prototype` would evaluate to true since arr instance inherits from the Array object. Spaced repetition and practice are especially helpful in reviewing the concepts that I thought I understood before (but when I come back to review them, some topics tend to get mixed up in my head 🧐). Of course, the best way to retain knowledge is by using them in my code (whether it's for a project or pratice problem).
 
 ## Day 53: March 23, 2021
 
@@ -595,7 +593,7 @@ how event listeners work with the documentation and YouTube vidoes, since the pr
 - [x] Review functional programming, higher-order functions and methods, and callback functions
 
 **Thoughts**: When I first started to learn programming, the terms "imperative" and "declarative" styles of programming were confusing to me. In essence, imperative programming describes HOW your program should achieve something (ex. step by step) and is used in object-oriented programming, whereas declarative programming describes WHAT your program should ultimately achieve and is used in functional programming). Now that I know about the higher-order functions and methods, they make more sense to me since higher-order functions make it a lot easier for you to just tell your program what to do (ex. triple every number in the array) rather than having to specify the steps of achieving the same goal. Callback functions were also very confusing to me at first (I mean, it's called a "callback" function - back then I was wondering what exactly you are calling back?). With practice, I am now more comfortable using them in my code and it's such an important part of JavaScript since it's used everywhere.
- 
+
 ## Day 55: March 25, 2021
 
 **Today's Progress** 👩🏻‍💻
@@ -604,21 +602,22 @@ how event listeners work with the documentation and YouTube vidoes, since the pr
 - [x] Refactor Todo List code
 - [x] React JS Introduction (The Odin Project)
 
-**Thoughts**: Some notes to self: remember to **actually RETURN** something inside of the higher-order functions and be aware of **what's being returned**! Too many times I have assumed that my function returns a value when in reality, I see `undefined` being returned instead 😅. For the Todo List, I made some small edits to refactor code such as deleting unused imports from modules, removing unnecessary comments (the ones that don't add value to code), and adding consistency to module names (starting all with capital letters). 
+**Thoughts**: Some notes to self: remember to **actually RETURN** something inside of the higher-order functions and be aware of **what's being returned**! Too many times I have assumed that my function returns a value when in reality, I see `undefined` being returned instead 😅. For the Todo List, I made some small edits to refactor code such as deleting unused imports from modules, removing unnecessary comments (the ones that don't add value to code), and adding consistency to module names (starting all with capital letters).
 
 ## Day 56: March 26, 2021
 
 **Today's Progress** 👩🏻‍💻
+
 - [x] Update Todo List README
 - [x] Continue the React JS Introduction lesson
 - [x] React State and Props
 
-**Thoughts**: I learned that it's best to update the README when the project is still fresh on your mind. It's been almost 2.5 weeks since I finalized the Todo List project, but I have not gotten around to update the README for it with demo gifs, features, and learning outcomes. It was definitely more difficult to remember everything after some time has passed. But what matters is that I updated it ☺️. Continuing from yesterday, I finished the Introduction to React and the React State and Props lessons from the Odin Project. I had built a project using React before but it was still a nice refresher on topics such as what the JSX is (JavaScript Syntax Extension that allows dynamic HTML), virtual DOM, and that components can have states (which is an object that determines how a component renders and behaves). In addition to watching YouTube videos, I followed along the React tutorial from [Scrimba Learn React Free Course](https://scrimba.com/learn/learnreact) and it was great since I got to work on mini challenges on writing JSX, making my own components, and the overall usage/syntax for react. I will continue working on the tutorial tomorrow as well. 
-
+**Thoughts**: I learned that it's best to update the README when the project is still fresh on your mind. It's been almost 2.5 weeks since I finalized the Todo List project, but I have not gotten around to update the README for it with demo gifs, features, and learning outcomes. It was definitely more difficult to remember everything after some time has passed. But what matters is that I updated it ☺️. Continuing from yesterday, I finished the Introduction to React and the React State and Props lessons from the Odin Project. I had built a project using React before but it was still a nice refresher on topics such as what the JSX is (JavaScript Syntax Extension that allows dynamic HTML), virtual DOM, and that components can have states (which is an object that determines how a component renders and behaves). In addition to watching YouTube videos, I followed along the React tutorial from [Scrimba Learn React Free Course](https://scrimba.com/learn/learnreact) and it was great since I got to work on mini challenges on writing JSX, making my own components, and the overall usage/syntax for react. I will continue working on the tutorial tomorrow as well.
 
 ## Day 57: March 27, 2021
 
 **Today's Progress** 👩🏻‍💻
+
 - [x] Scrimba React tutorial (props, state, event handlers)
 
 **Thoughts**: I continued to work on the React tutorial by Scrimba and it provided good hands-on practice on getting the correct React syntax and learning about props (uni-directional data flow from parent to child), state (change state using the `setState` method), and event handlers. Throughout the lesson, I read the React documentations to supplement the tutorial and I'm glad that I have improved on reading the documentation and understanding it more thoroughly. When I first started learning JavaScript and React, documentation was difficult to understand. It's such an important skill to have since it's the source of truth not only for MDN or React documentation but also for the third party libraries and APIs.
@@ -669,6 +668,7 @@ how event listeners work with the documentation and YouTube vidoes, since the pr
 - [x] Continue the React CV Project
 
 **Thoughts**: As someone learning how to program, there are days where I experience the imposter syndrome. Here are some notes to self for what helped me handle imposter syndrome:
+
 1. Google "programming gives me imposter syndrome" and realize I'm not the only one feeling this way: as of April 1, 2021, I have found 1,040,000 results on Google search, meaning that others have experienced it (been there, done that!). Reading an article or two helps me learn from others (even senior engineers feel that way so imagine someone trying to land her first software engineer job 🤗)
 2. Help other people in the software development community: this not only makes me feel good about myself for being able to help, but also shows that I actually know something enough to help others understand. The best way to learn is to teach others, so it's good for combatting imposter syndrome and also reinforces my learning!
 3. Look at my old code (and cringe for 30 seconds) and reflect on how far I have accomplished: back in the days, I didn't like working in command line interface. I used to prefer GUI but hey, now CLI is life ☺️. Also, I didn't enjoy using higher-order array functions like `.forEach`, `.map`, `.reduce`. I thought I could accomplish the same goals using for loops and for loops were "easier". But now my go-to functions are higher-order functions and I know how important they are for declarative functional programming. They became easier with practice. Now I try to reduce the number of for loops in my code.
@@ -676,6 +676,7 @@ how event listeners work with the documentation and YouTube vidoes, since the pr
 ## Day 63: April 2, 2021
 
 **Today's Progress** 👩🏻‍💻
+
 - [x] Solve mini-algorithm problems (difficult - means I'm learning!)
 
 **Thoughts**: Whenever I solve a difficult problem and get stuck, I do the following: take a break, think about it in the shower, sleep and return to it the next day. It helps so much to take a rest or just get up and stretch instead of giving in and looking at the solution. Obviously there are time where I look at the solution; for example, if I don't know what a binary search tree is, I won't spend days and weeks trying to figure out a BST problem. Not giving up and thinking about the problem is a great way to improve critical thinking skills. It feels great when I finally solve the problem and then look at the solution to further learn from others. I didn't mention it in yesterday's post but another thing that helps me tackle imposter syndrome is to imagine how I would support my friend in the same situation. Since I know how much effort my friend (me ☺️) puts into studying programming, I would encourage her by telling her to keep up the good work. You should be your own best friend and champion.
@@ -683,6 +684,7 @@ how event listeners work with the documentation and YouTube vidoes, since the pr
 ## Day 64: April 3, 2021
 
 **Today's Progress** 👩🏻‍💻
+
 - [x] Continue to solve mini-algorithm problems
 
 **Thoughts**: I continued to solve mini-algorithm problems from yesterday (I refer to them as mini because I'm not actually using algorithms such as binary search, sort, or dynamic programming, but I do have to think harder and put more effort into solving them than other problems 😅). I'm proud that I was able to solve the problems that I was initially stuck on. For some problems, I solved it utilizing stack data structure and nested loops. I hope to wrap them up tomorrow and look at how other people solved them!
@@ -690,14 +692,16 @@ how event listeners work with the documentation and YouTube vidoes, since the pr
 ## Day 65: April 4, 2021
 
 **Today's Progress** 👩🏻‍💻
+
 - [x] Continue the React CV Project
-- [x] Solve the mini-algorithm problems and learn from others' code line by line 
+- [x] Solve the mini-algorithm problems and learn from others' code line by line
 
 **Thoughts**: One of the good ways to improve programming skills is to read other people's code. It helps because you get to know how others approached the problem and implemented it. Although helpful, it is still one of the difficult skills to have and sometimes I don't even understand what I wrote a week ago unless I left good comments for the future self 👀. For one of the problems that I struggled with, I reviewed someone else's solution line by line and wrote comments so I can refer to them later. I noticed that while writing comments to understand the code is important but it's also important to understand their overall strategy and the main goal of each line of code (for example, it might be easy to figure out that a line of code is checking whether a property already exists in the object, but you also need to know **why** they are checking for the property. For the question I was referring to, it was to check if there was a duplicate value in the object.)
 
 ## Day 66: April 5, 2021
 
 **Today's Progress** 👩🏻‍💻
+
 - [x] Finalize the React CV Project
 - [x] Re-do the problem I was stuck on without looking back at notes
 
@@ -706,6 +710,7 @@ how event listeners work with the documentation and YouTube vidoes, since the pr
 ## Day 67: April 6, 2021
 
 **Today's Progress** 👩🏻‍💻
+
 - [x] Free React Bootcamp Videos Day 1 and 2
 
 **Thoughts**: From watching the [Free React.js Bootcamp videos by uidotdev](https://www.youtube.com/watch?v=NHfRLQuHjsU), I learned about how React works under the hood (for example, the `React.createElement()` method and what arguments it takes in, how React **elements** are different from React **components**. "**React Component** is a **function or class**, which optionally accepts input, and **returns a React Element**.") Also, the instructor clearly explained that `props` are to React components, what `arguments` are to functions. Along with additional practice with passing in props to components and dynamic rendering using the setState method, I am becoming more comfortable with React. I will be starting the Memory Game project tomorrow as suggested by the Odin Project as well as learn about the lifecycle methods and hooks.
@@ -713,22 +718,25 @@ how event listeners work with the documentation and YouTube vidoes, since the pr
 ## Day 68: April 7, 2021
 
 **Today's Progress** 👩🏻‍💻
+
 - [x] Watch the Free React Bootcamp Video - Day 3
 - [x] Learn about React Lifecycle Methods
 - [x] Start working on the React Memory Game
 - [x] Learn about React Hooks
 
 **Thoughts**: I spent some time learning about the React lifecycle methods and the sequence of how they work:
+
 1. First the `constructor` function will be called and the initial states will be established.
 2. UI will be rendered with those initial states using the `render` method.
 3. Once mounted to the DOM, `componentDidMount` is called.
 4. If there are any updates to the components (ex. new props/states), `componentDidUpdate` will be called.
 5. If there are components being unmounted, `componentWillUnmount` will be called immediately before a component is unmounted and destroyed.
-The Free React bootcamp video was good for learning the basics of React but since this video was released before the React hooks were introduced, I watched a [different video](https://www.youtube.com/watch?v=eX_L39UvZes&t=7s) to learn how to use hooks inside of functional components. Funny enough, just as I learned about React lifecycle methods, hooks encourage thinking in terms of synchronization rather than lifecycle methods. Regardless, lifecycle methods are still important part of React since not all code is written using hooks and hooks such as `useEffect` still have a similar idea as lifecycle methods.
+   The Free React bootcamp video was good for learning the basics of React but since this video was released before the React hooks were introduced, I watched a [different video](https://www.youtube.com/watch?v=eX_L39UvZes&t=7s) to learn how to use hooks inside of functional components. Funny enough, just as I learned about React lifecycle methods, hooks encourage thinking in terms of synchronization rather than lifecycle methods. Regardless, lifecycle methods are still important part of React since not all code is written using hooks and hooks such as `useEffect` still have a similar idea as lifecycle methods.
 
 ## Day 69: April 8, 2021
 
 **Today's Progress** 👩🏻‍💻
+
 - [x] Create a number guessing game using vanilla JavaScript
 - [x] Learn about React Hooks
 - [x] Work on the React Memory Game
@@ -738,6 +746,7 @@ The Free React bootcamp video was good for learning the basics of React but sinc
 ## Day 70: April 9, 2021
 
 **Today's Progress** 👩🏻‍💻
+
 - [x] Continue working on the React Memory Game
 
 **Thoughts**: I continued to work on the React Memory Game and made good progress on the important features of the game. Before diving into writing code, I took the time to brainstorm on how to achieve a functionality (ex. clicking on a card increases a score unless a duplicate card is chosen - in which case, game over). I came up with multiple approaches and ultimately proceeded with the one that made the most sense to me. For example, I didn't feel like there was a need for individual Card component to know that they are clicked; only the App component (parent) needs to know in order to keep track of the game. Fortunately this logic worked out pretty well. Another logic that was confusing was implementing the GameOver component. I wasn't sure how to communicate the click event for the "play again" button from the GameOver component (child) to the App component (parent). I thought I needed to have a "play again" logic (i.e. reset game data) inside of GameOver since that's where the button element was. But since App is in charge of handling game data such as cardsClicked and checking for duplicates, I realized I can have the reset the game data logic inside of App. I just needed to pass down that logic via props for the onClick event handler to the button inside of GameOver component. Nothing is being "passed up" to App from GameOver - the child component is just handling the onClick event for the parent. Also learned that you can provide `onClick` and other events only on **DOM elements**, not your own custom components (this explains why I passed down the onClick logic down to GameOver component via props).
@@ -745,14 +754,16 @@ The Free React bootcamp video was good for learning the basics of React but sinc
 ## Day 71: April 10, 2021
 
 **Today's Progress** 👩🏻‍💻
+
 - [x] Finalize the Memory Game
 - [x] Review recursion
 
-**Thoughts**: I was able to find a solution to the problem where the character cards were not randomized on the initial render. Under the hood, the cards would render first and then the cards array would be shuffled. By the time the cards are randomized, because the UI is already rendered, the randomized array does not display correctly. The fix was isolating the shuffle algorithm into a helper function, importing it into the characters array file to run it inside of that file (so they will be appear random on the first render), and also importing the helper function into App to invoke it upon card click. Working with multiple components for the project helped me finally understand what people mean by ["using callback functions" to pass information from child to parent.](https://www.pluralsight.com/guides/react-communicating-between-components). Essentially, the parent component is passing in a function to the child via props, and the child just executes that callback function from the parent. Since the parent has reference to that function, the parent has access to the changes triggered by the execution of the function. For example, look at the `<App />` and `<HowToPlay />` and how the `handleHowToPlay` function is passed down from the `<App />` to `<HowtoPlay />` child component. When a button inside of `<HowToPlay />` component is clicked, `handleHowToPlay` function is executed, which triggers the `setShowHowToPlay` function to modify the `showHowToPlay` state. 
+**Thoughts**: I was able to find a solution to the problem where the character cards were not randomized on the initial render. Under the hood, the cards would render first and then the cards array would be shuffled. By the time the cards are randomized, because the UI is already rendered, the randomized array does not display correctly. The fix was isolating the shuffle algorithm into a helper function, importing it into the characters array file to run it inside of that file (so they will be appear random on the first render), and also importing the helper function into App to invoke it upon card click. Working with multiple components for the project helped me finally understand what people mean by ["using callback functions" to pass information from child to parent.](https://www.pluralsight.com/guides/react-communicating-between-components). Essentially, the parent component is passing in a function to the child via props, and the child just executes that callback function from the parent. Since the parent has reference to that function, the parent has access to the changes triggered by the execution of the function. For example, look at the `<App />` and `<HowToPlay />` and how the `handleHowToPlay` function is passed down from the `<App />` to `<HowtoPlay />` child component. When a button inside of `<HowToPlay />` component is clicked, `handleHowToPlay` function is executed, which triggers the `setShowHowToPlay` function to modify the `showHowToPlay` state.
 
 ## Day 72: April 11, 2021
 
 **Today's Progress** 👩🏻‍💻
+
 - [x] Refactor the React Memory Game code
 - [x] Update README for React Memory Game
 - [x] Review recursion
@@ -762,24 +773,26 @@ The Free React bootcamp video was good for learning the basics of React but sinc
 ## Day 73: April 12, 2021
 
 **Today's Progress** 👩🏻‍💻
+
 - [x] Review Recursion and solve practice problems
 - [x] Learn about React Routers
 - [x] Start the React Shopping Cart
 
-**Thoughts**: I took some time to review the concepts of recursion and solve several practice problems. For recursion, I think recognizing a pattern and breaking it down into smaller, working parts is the key to solving it. Recursion has been one of the most difficult concepts for me to grasp, and I'm hoping that with practice it will get easier. In addition, I learned about React Routers and they feel similar to the Express framework for Node.js. Using this new knowledge, I started another React project (inspired by the Odin Project) for an imaginary website to continue practice using React and React Routers. For styling, I decided to learn and use Styled Components instead of regular CSS. Many companies utilize Styled Components, including  Zillow, Spotify, and Patreon. I'm excited to add another skill under my belt!
+**Thoughts**: I took some time to review the concepts of recursion and solve several practice problems. For recursion, I think recognizing a pattern and breaking it down into smaller, working parts is the key to solving it. Recursion has been one of the most difficult concepts for me to grasp, and I'm hoping that with practice it will get easier. In addition, I learned about React Routers and they feel similar to the Express framework for Node.js. Using this new knowledge, I started another React project (inspired by the Odin Project) for an imaginary website to continue practice using React and React Routers. For styling, I decided to learn and use Styled Components instead of regular CSS. Many companies utilize Styled Components, including Zillow, Spotify, and Patreon. I'm excited to add another skill under my belt!
 
 ## Day 74: April 13, 2021
 
 **Today's Progress** 👩🏻‍💻
+
 - [x] Review Recursion and solve practice problems
 - [x] Continue working on the React Shopping Cart
 
 **Thoughts**: For the React Shopping Cart project, I will be rewriting and refactoring the code from a different project that I was working on to practice React, but I didn't quite finish yet. They are similar in the sense that both of them would have a shopping cart and other menu pages to utilize React Routers. Because there will be some parts that would be removed and added for the purpose of this project, it involved heavy refactoring from changing regular CSS to using Styled Components and other features. So far I enjoy working with Styled Components because it's easier to maintain and dynamically style different components. I can't wait to learn other libraries such as Redux for my React applications ☺️
 
-
 ## Day 75: April 14, 2021
 
 **Today's Progress** 👩🏻‍💻
+
 - [x] Practice Recursion
 - [x] Continue working on the React Shopping Cart
 
@@ -788,6 +801,7 @@ The Free React bootcamp video was good for learning the basics of React but sinc
 ## Day 76: April 15, 2021
 
 **Today's Progress** 👩🏻‍💻
+
 - [x] Practice Recursion
 - [x] Continue working on the React Shopping Cart
 
@@ -796,11 +810,52 @@ The Free React bootcamp video was good for learning the basics of React but sinc
 ## Day 77: April 16, 2021
 
 **Today's Progress** 👩🏻‍💻
+
 - [x] Practice Recursion
 
 **Thoughts**: I spent some time re-doing the recursion problems that I was stuck before, this time utilizing a Debugger to step through each recursive call. I have used code visualization sites such as [AlgoViz](https://algoviz.io/) and [JavaScript Tutor](http://pythontutor.com/javascript.html#mode=edit), but a browser debugger was useful because it was easier to trace the call stack and the value of different variables in each function's execution context. I walked through the solution of flattening a nestd array using recursion without loops, writing out each call. It was more complicated because the solution occasionally involved 2 recursive calls in each function call. While walking through the solution, I noticed that there are several important things to note:
+
 1. Know which function called which function so you know WHERE to return the return value to. It helped to label which previous function invoked the current function call.
 2. Keep track of what's remaining in the call stack and what has been popped off. Remember that a function pops off the call stack when it **returns**.
 3. When there are multiple recursive calls made in one function call, remember that JavaScript is single-threaded and works from top to bottom. Therefore, the latter recursive function does not get called until we have a return value from the first recursive call.
 
 Note to self: Everyone works based on their own time zone, so don't feel rushed even if you don't understand recursion right away! Practice makes perfect 🤗
+
+## Day 78: April 17, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Watch videos on Stacks, Queues, Linked Lists, Binary Search
+- [x] Continue the React Shopping Cart Project
+
+**Thoughts**: When it comes to data structures and algorithms (or any other topics!), I think it's important to get the initial exposure whether you understand them or not. Repetition is key, so the more exposure you get, the more concrete the concepts will be. For the Linked Lists video, it went over the problem to calculate the number of nodes in a linked list, given `head` is not null. Thanks to the recursion problems I have been dealing with for the past few days, I thought that using recursion to solve this problem would be a good solution. It reminded me of the classic "how many people are in front of you? Ask someone in front of you!" approach, except in front of a person, it would be a node.
+
+## Day 79: April 18, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Continue the React Shopping Cart Project
+- [x] Work on Recursion problems from this [repo](https://github.com/JS-Challenges/recursion-prompts)
+
+**Thoughts**: For the React Shopping Cart project, I had to handle the edge case of if the user adds the same item in two different occasions (ex. add 1 of item A now and add another 1 of item A at a later time), the cart should display Quantity 2 of item A rather than Quantity 1 of item A in 2 different rows. It required some thinking to handle it, but I was able to solve it by modifying the quantity property of the item object. One lesson learned is before trying out new features, or refactoring, make sure to `commit` to make your life easier. Otherwise you may have to undo 100 times to go back to the checkpoint. Another feature that I want to implement is allowing user to edit cart item quantity in two different components: `ProductCard` and `CartItem`. Currently, the `quantity` state was maintained by the `ProductCard` component but when writing code for the `CartItem` component, I realized it also needs access to the `quantity` state. The [React Docs](https://reactjs.org/docs/lifting-state-up.html) suggests that I lift the state up to the closest common ancestor, so that's what I will be trying. I learned the importance of global state management system (Redux!), since it will make managing the state so much easier. For my future React project, I will be learning and using Redux. Excited!
+
+## Day 80: April 19, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Day 1 of Grace Hopper Coding Bootcamp
+- [x] Pair programming: git
+- [x] Work on Recursion problems from this [repo](https://github.com/JS-Challenges/recursion-prompts)
+
+**Thoughts**: Today was the first day of the Grace Hopper Coding Bootcamp and I am very excited to continue my coding bootcamp journey with fellow Grace Hoppers! I have not pair-programmed in a while, so a few hours of pair-programming felt really refreshing. I look forward to sharing my knowledge and learning from others during the bootcamp 🥳.
+
+## Day 81: April 20, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Day 2 of Grace Hopper Coding Bootcamp
+- [x] Pair Programming: HTML/CSS
+- [x] Continue the React Shopping Cart Project
+- [x] Work on Recursion problems from this [repo](https://github.com/JS-Challenges/recursion-prompts)
+
+**Thoughts**: The benefit of pair-programming is that you learn from the experience whether your partner has more experience or less experience than you. Of course you learn when working with someone with more experience than you but the opposite is true too! You learn just as much when you teach someone else because you get to confirm what you truly know (if your partner is able to learn from the experience, that's a good sign of your teaching ability!), communicate your knowledge in an easy-to-understand manner. Teaching someone else is a great opportunity to reinforce your knowledge and improve soft/technical communication skills.
