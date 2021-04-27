@@ -859,3 +859,52 @@ Note to self: Everyone works based on their own time zone, so don't feel rushed 
 - [x] Work on Recursion problems from this [repo](https://github.com/JS-Challenges/recursion-prompts)
 
 **Thoughts**: The benefit of pair-programming is that you learn from the experience whether your partner has more experience or less experience than you. Of course you learn when working with someone with more experience than you but the opposite is true too! You learn just as much when you teach someone else because you get to confirm what you truly know (if your partner is able to learn from the experience, that's a good sign of your teaching ability!), communicate your knowledge in an easy-to-understand manner. Teaching someone else is a great opportunity to reinforce your knowledge and improve soft/technical communication skills.
+
+## Day 82: April 21, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Day 3 of Grace Hopper Coding Bootcamp
+- [x] Pair programming: debugging
+
+**Thoughts**: After being exposed to different testing frameworks, now I understand better what people mean by "if you know one language or framework, it's easier to learn others." I worked with Jasmine before and when I was introduced to Mocha, the syntax looks very similar - such as `describe` and `it` methods, although some details are different. For example in Jasmine, you can _focus_ on a set of tests by putting `f` in front of `describe` or `it` methods whereas in Mocha, you can achieve the same feature with `.only` at the end of `describe` or `it`. But the overall idea stays the same.
+
+## Day 83: April 22, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Day 4 of Grace Hopper Coding Bootcamp
+- [x] Pair programming: pixelate
+- [x] Review CSS by cloning a mockup
+- [x] [Solve recursion problem](https://github.com/DevKarenC/recursion-prompts)
+
+**Thoughts**: From the pair programming experience, I can see how being able to communicate your technical approach to your team members is an important skill to have as a developer. Also, teamwork makes the dream work 💪
+
+## Day 84: April 23, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Day 5 of Grace Hopper Coding Bootcamp
+- [x] Pair programming: Node Shell
+- [x] Review Node.js
+- [x] Create a coffee version of [Cookie Clicker game](insert link)
+
+**Thoughts**: Though I have used Node.js before in my project, I feel like I haven't used it enough like vanilla JavaScript to feel comfortable (although that's how I would feel at work or any fast-paced environment 🤔). It was good practice to reproduce some of the common terminal commands such as `ls`, `pwd`, and `curl` with Node.js methods and modules.
+
+## Day 85: April 24, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Review Node.js (require, module.exports, fs module)
+- [x] [Solve recursion problem](https://github.com/DevKarenC/recursion-prompts)
+
+**Thoughts**: Bootcamp definitely moves fast - we covered the majority of front-end (HTML/CSS/JS) in 3 days. Fortunately, I had knowledge for the front-end portion from self-teaching, but Node.js and the back-end tech stack is something I need to learn/review so I spent some time today to review what we learned and prepare for next week. Next week will be loaded with new knowledge - can't wait to learn, be stuck, and debug!
+
+## Day 86: April 25, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Read about Redux, Redux Toolkit, and useContext hook
+- [x] Continue working on the React Shopping Cart project
+
+**Thoughts**: For the React Shopping Cart Project, I was wondering if using Redux or other state management system would be helpful so I read the Introduction to Redux documentation. I came across links for the proper use cases of Redux (["Should You Use Redux?"](https://redux.js.org/introduction/getting-started#should-you-use-redux) and ["When (and when not) to reach for Redux"](https://changelog.com/posts/when-and-when-not-to-reach-for-redux)) and it mentioned that React offers hooks such as `useReducer` and `useContext`, which in together can "kind of make up a state management system". So I entered a rabbit hole and started to read up on `useContext` hook and learned that instead of passing down props all the way down via all the children, you can just pass the props to the child that needs it and the middle-parents may not even know about it. Since my shopping cart application has 3-4 layers, I felt that I don't need a system to manage states so I will achieve the same goal by passing in props to children.
