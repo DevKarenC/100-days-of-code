@@ -908,3 +908,43 @@ Note to self: Everyone works based on their own time zone, so don't feel rushed 
 - [x] Continue working on the React Shopping Cart project
 
 **Thoughts**: For the React Shopping Cart Project, I was wondering if using Redux or other state management system would be helpful so I read the Introduction to Redux documentation. I came across links for the proper use cases of Redux (["Should You Use Redux?"](https://redux.js.org/introduction/getting-started#should-you-use-redux) and ["When (and when not) to reach for Redux"](https://changelog.com/posts/when-and-when-not-to-reach-for-redux)) and it mentioned that React offers hooks such as `useReducer` and `useContext`, which in together can "kind of make up a state management system". So I entered a rabbit hole and started to read up on `useContext` hook and learned that instead of passing down props all the way down via all the children, you can just pass the props to the child that needs it and the middle-parents may not even know about it. Since my shopping cart application has 3-4 layers, I felt that I don't need a system to manage states so I will achieve the same goal by passing in props to children.
+
+## Day 87: April 26, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Day 6 of Grace Hopper Coding Bootcamp
+- [x] Pair programming: Express
+- [x] Review Express library
+
+**Thoughts**: I'm so glad Express library exists because it makes routing so much easier instead of using just Node.js. Most of my self-studying was focused on the front-end (vanilla JavaScript, React) aspect of programming, so I'm excited to dive into the back-end technology.
+
+## Day 88: April 27, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Day 7 of Grace Hopper Coding Bootcamp
+- [x] Learn about databases, PostgreSQL, and Schema Design
+- [x] Continue the React Shopping Cart
+
+**Thoughts**: I first learned about databases and SQL back in college and I really enjoyed those classes. Things slowly came back to me when we learned about primary key, foreign key, database relationships such as one to many, many to many, and drawing ERDs (entity relationship database). I have not used PostgreSQL before so I had to get used to some quirks such as adding a semi-colon after a query. As for the React Shopping Cart, I was finally able to add the feature to edit the quantity in 2 different places: both shop and cart pages. Also, I found a great library to appropriately round the total price to 2 decimal places.
+
+## Day 89: April 28, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Day 8 of Grace Hopper Coding Bootcamp
+- [x] Learn about Node-Postgres, Express Routers, REST, Body Parser
+- [x] Pair programming: Node-Postgres
+
+**Thoughts**: Especially when you are learning something in a short period of time (i.e. coding bootcamp!), getting used to the Just-in-Time knowledge is super important because everything is fast-paced. As much as I enjoy exploring the rabbit hole and getting into the weeds (especially the new technology), it's important to balance things out to finish the assignments and get a good understanding of the concepts to move onto the next topic. It's helpful to focus on the big picture and not to overthink the new concepts. For example, PostgreSQL is really just a DBMS, and middleware is just a facilitating function between a request and a response.
+
+## Day 90: April 29, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Day 9 of Grace Hopper Coding Bootcamp
+- [x] Learn about Sequelize ORM
+- [x] Pair programming: Express Routers and Sequelize
+
+**Thoughts**: After several hands-on learning, things are making more sense now in that Sequelize essentially works as a bridge between your code and RDBMS so that we don't need to write raw SQL queries but instead use the methods provided by Sequelize. Sometimes it's important to dive in to typing actual code rather than trying to understand everything conceptually first.
