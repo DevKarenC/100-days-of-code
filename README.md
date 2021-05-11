@@ -948,3 +948,89 @@ Note to self: Everyone works based on their own time zone, so don't feel rushed 
 - [x] Pair programming: Express Routers and Sequelize
 
 **Thoughts**: After several hands-on learning, things are making more sense now in that Sequelize essentially works as a bridge between your code and RDBMS so that we don't need to write raw SQL queries but instead use the methods provided by Sequelize. Sometimes it's important to dive in to typing actual code rather than trying to understand everything conceptually first.
+
+## Day 91: April 30, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Review Sequelize Hooks and Associations
+
+**Thoughts**: I am getting more used to defining models and associations (one to many, many to many) in Sequelize, but more practice never hurts! It's great that Sequelize offers magic methods that we can use on models where we defined associations to make querying easier. Sequelize hooks reminds me of React's lifecycle methods although they are not the same, they are similar in the sense that the code defined in the hooks run before or after certain Sequelize lifecycle methods.
+
+## Day 92: May 1, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Review Sequelize (magic methods, eager loading)
+- [x] Optional Homework to practice Express Routes and Sequelize
+- [x] Continue the React Shopping Cart
+
+**Thoughts**: Eager loading is just another name for joining tables together to perform various queries. I thought the term "Eager Loading" was specific to Sequelize but upon doing more research, I learned that it's actually a common term used in databases in general (typically notated by `include:`).
+
+## Day 93: May 2, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Review Sequelize (magic methods, eager loading)
+- [x] Optional Homework to practice Express Routes and Sequelize
+- [x] Continue the React Shopping Cart
+
+**Thoughts**: For the React Shopping Cart, I was able to implement the delete button feature. I referred back to the old code that I wrote for the React Spongebob Memory Game to realize that the CartItem component already has access to the item's id, so I just need to pass it up to the App component with the callback function and filter by the items that the ID does _not_ match. Working on a React project was a good break from Sequelize 😅
+
+## Day 94: May 3, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Learn about SPA / AJAX / Axios
+- [x] Review Express and Sequelize
+
+**Thoughts**: One of the most difficult parts about learning to program (especially Full stack!) would be to see how everything connects together. In other words, it's easy to fall into the rabbit hole and only focus on the small detail but it's important to understand the big picture. In that sense, it was at first difficult to understand how Axios falls into the picture but once I realized that it's a library that helps send HTTP clients to the server, it cleared up a lot of things!
+
+## Day 95: May 4, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Review Sequelize, Express, Postgres
+
+**Thoughts**: The best thing about learning to program is that when you think you understood everything, something more difficult pops up and challenges you 🙂 (or you simply forget) so it's crucial to review those topics regularly. For me, those topics have included Sequelize, Express, and Postgres for the past week.
+
+## Day 96: May 5, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Learn about React, State, Props
+
+**Thoughts**: I'm glad that I have previous exposure to the React framework because things are very fast-paced at the bootcamp (just the nature of a bootcamp), so I was able to more quickly pick up the React concepts such as state and props.
+
+## Day 97: May 6, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Learn about React Component Lifecycle Methods
+
+**Thoughts**: For both of my recent React projects (Spongebob Memory Game and the Shopping Cart), I utilized the functional components and React Hooks to set up states. Since the bootcamp focuses on the class components, it was a good practice to review the React class components and handling state, props, and the lifecycle methods such as componentDidMount and componentWillUnmount.
+
+## Day 98: May 7, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Review Sequelize, Express, Postgres, React
+
+**Thoughts**: I had good practice with integrating different technology stacks such as Sequelize, Express, Postgres, and React to build a project with a pair programming partner. So far we have been focusing on how one or two technologies work independently or in conjunction with another, and this project was great in that we saw how everything came together.
+
+## Day 99: May 8, 2021
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Review Sequelize (practice problems)
+
+**Thoughts**: Over the weekend, I decided to review Sequelize because I felt that it was one of the topics where I could improve on. I was able to get more practice with Sequelize queries, hooks, magic methods, and eager loading. Just like with any other libraries or frameworks, thoroughly reading the documentation helped a lot in debugging (although not every documentation is perfect).
+
+## Day 100: May 9, 2021 🎉
+
+**Today's Progress** 👩🏻‍💻
+
+- [x] Learn about Redux
+- [x] Review Sequelize (practice problems)
+
+**Thoughts**: Reflecting on my experience, I learned that having a prior knowledge (even slightly) on something helps a lot whether you remember everything related to that topic or not. It helps even more if you had written some code for a small personal project to reinforce your understanding. Since we will be learning Redux for the next week, I watched a YouTube video to get a basic understanding of what Redux is, how it works, and what it consists of (Action, Reducer, Store, Dispatch).
